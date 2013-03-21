@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67fef632-b938-4b02-90ae-217ba57c8f00" name="Default" comment="remove working dirs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/filters/how-long.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/jobs.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services/jobs.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/jobs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/api/jobs.json" />
-      <change type="DELETED" beforePath="D:\cv-angular\js\controllers\dashboard.coffee" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.coffee" afterPath="$PROJECT_DIR$/Gruntfile.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.coffee" afterPath="$PROJECT_DIR$/js/app.coffee" />
+    <list default="true" id="67fef632-b938-4b02-90ae-217ba57c8f00" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/app.js" afterPath="$PROJECT_DIR$/tmp/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/index.html" afterPath="$PROJECT_DIR$/partials/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/index.html" afterPath="$PROJECT_DIR$/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/filters/how-long.coffee" afterPath="$PROJECT_DIR$/js/filters/how-long.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/jobs.coffee" afterPath="$PROJECT_DIR$/js/controllers/jobs.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/jobs.html" afterPath="$PROJECT_DIR$/partials/jobs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/templates.js" afterPath="$PROJECT_DIR$/tmp/templates.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cv-angular.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363868323024" ignored="false" />
+    <file path="/Dummy.txt" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363872350748" ignored="false" />
     <file path="/index.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363872173285" ignored="false" />
     <file path="/app.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363871908989" ignored="false" />
     <file path="/.gitignore" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363867701284" ignored="false" />
-    <file path="/jobs.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363872087662" ignored="false" />
-    <file path="/jobs.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363872309688" ignored="false" />
+    <file path="/jobs.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363881053140" ignored="false" />
+    <file path="/jobs.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363881551007" ignored="false" />
     <file path="/index.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363868354343" ignored="false" />
-    <file path="/how-long.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363869350466" ignored="false" />
-    <file path="/main.less" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363872189960" ignored="false" />
+    <file path="/how-long.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363881446412" ignored="false" />
+    <file path="/main.less" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363881852128" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="14" selection-start="712" selection-end="712" vertical-scroll-proportion="-15.692307">
+            <state line="17" column="13" selection-start="561" selection-end="561" vertical-scroll-proportion="-11.115385">
               <folding />
             </state>
           </provider>
@@ -69,7 +61,16 @@
       <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+            <state line="8" column="25" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="how-long.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/filters/how-long.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="29" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,7 +88,7 @@
       <file leaf-file-name="jobs.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/jobs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="631" selection-end="631" vertical-scroll-proportion="0.39056832">
+            <state line="25" column="27" selection-start="934" selection-end="934" vertical-scroll-proportion="0.5139057">
               <folding />
             </state>
           </provider>
@@ -96,7 +97,7 @@
       <file leaf-file-name="jobs.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers/jobs.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="64" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,12 +126,12 @@
         <option value="$PROJECT_DIR$/js/controllers/index.coffee" />
         <option value="$PROJECT_DIR$/js/services/jobs.coffee" />
         <option value="$PROJECT_DIR$/Gruntfile.coffee" />
-        <option value="$PROJECT_DIR$/js/filters/how-long.coffee" />
         <option value="$PROJECT_DIR$/js/app.coffee" />
-        <option value="$PROJECT_DIR$/js/controllers/jobs.coffee" />
         <option value="$PROJECT_DIR$/static/index.html" />
-        <option value="$PROJECT_DIR$/less/main.less" />
+        <option value="$PROJECT_DIR$/js/controllers/jobs.coffee" />
+        <option value="$PROJECT_DIR$/js/filters/how-long.coffee" />
         <option value="$PROJECT_DIR$/partials/jobs.html" />
+        <option value="$PROJECT_DIR$/less/main.less" />
       </list>
     </option>
   </component>
@@ -385,7 +386,11 @@
       <created>1363867766788</created>
       <updated>1363867766788</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="show jobs">
+      <created>1363872354780</created>
+      <updated>1363872354780</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -453,7 +458,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove working dirs" />
+    <option name="LAST_COMMIT_MESSAGE" value="show jobs" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -470,6 +475,7 @@
     <MESSAGE value="initial project structure" />
     <MESSAGE value="index page" />
     <MESSAGE value="remove working dirs" />
+    <MESSAGE value="show jobs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -496,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/filters/how-long.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="347" selection-end="347" vertical-scroll-proportion="0.15943728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.16707617">
@@ -517,23 +516,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="712" selection-end="712" vertical-scroll-proportion="-15.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/jobs.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="64" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/filters/how-long.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -545,9 +537,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="561" selection-end="561" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/jobs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="631" selection-end="631" vertical-scroll-proportion="0.39056832">
+        <state line="25" column="27" selection-start="934" selection-end="934" vertical-scroll-proportion="0.5139057">
           <folding />
         </state>
       </provider>

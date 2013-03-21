@@ -23,10 +23,12 @@
 (function() {
 
   window.JobsCtrl = function(scope, jobs, win, routeParams, location) {
-    scope.searchSkill = routeParams.skill || '';
+    scope.search = {
+      skill: routeParams.skill || ''
+    };
     scope.jobs = jobs.query();
-    return scope.$watch('searchSkill', function() {
-      return location.search('skill', scope.searchSkill.length > 0 ? scope.searchSkill : null);
+    return scope.$watch('search.skill', function() {
+      return location.search('skill', scope.search.skill.length > 0 ? scope.search.skill : null);
     });
   };
 
@@ -46,7 +48,7 @@
     return function(start, finish) {
       var months, monthsDiff, years;
       start = new Date(start);
-      finish = finish !== null ? new Date(finish) : new Date();
+      finish = finish != null ? new Date(finish) : new Date();
       monthsDiff = finish.getFullYear() * 12 + finish.getMonth() - start.getFullYear() * 12 - start.getMonth();
       years = Math.floor(monthsDiff / 12);
       months = monthsDiff - years * 12;

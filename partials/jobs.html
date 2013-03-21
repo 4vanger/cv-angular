@@ -2,11 +2,14 @@
 	<label for="searchSkill">
 		Search by skill:
 	</label>
-	<input id="searchSkill" type="text" ng-model="searchSkill"/>
+	<div class="input-append">
+		<input id="searchSkill" type="text" ng-model="search.skill" placeholder="type skill here"/>
+		<span class="add-on clickable" ng-click="search.skill = ''"><i class="icon icon-trash"></i></span>
+	</div>
 </form>
 
 <ul class="jobs">
-	<li class="job" ng-repeat="job in jobs | filter:{skills:searchSkill}| orderBy:'-finishTimestamp'">
+	<li class="job" ng-repeat="job in jobs | filter:{skills:search.skill}| orderBy:'-finishTimestamp'">
 		<h2 class="position">
 			{{job.position}}
 			<span ng-show="job.company">at {{job.company}}</span>
@@ -14,15 +17,16 @@
 		</h2>
 		<p class="time">
 			{{ job.startTimestamp | date:'MMMM yy' }}
-			<span ng-show="job.finishTimestamp">
-				&mdash;
-				{{ job.finishTimestamp | date:'MMMM yy' }}
-			</span>
+			&mdash;
+			<span ng-show="job.finishTimestamp">{{job.finishTimestamp | date:'MMMM yy'}}</span>
+			<span ng-hide="job.finishTimestamp"> current</span>
 
 			({{ job.startTimestamp | howLong:job.finishTimestamp }})
 		</p>
 		<ul class="skills">
-			<li class="skill" ng-repeat="skill in job.skills"><a class="label important">{{skill}}</a></li>
+			<li class="skill" ng-repeat="skill in job.skills">
+				<a class="label important" ng-click="search.skill = skill">{{skill}}</a>
+			</li>
 		</ul>
 		<p ng-bind-html-unsafe="job.notes"></p>
 	</li>
