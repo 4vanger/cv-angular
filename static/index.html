@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="CV">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Andrew Kulinich - Front-end architect</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="/css.css">
+</head>
+<body>
+<div class="navbar">
+	<div class="navbar-inner">
+		<a class="brand" href="#/">Andrew Kulinich - Front-end architect</a>
+		<ul class="nav" ng-show="user">
+			<li><div class="navbar-text"></div></li>
+		</ul>
+		<ul class="nav pull-right" ng-show="user">
+			<li><a href="#/contact">Contact me</a></li>
+		</ul>
+	</div>
+</div>
+<div class="container">
+	<ng-view></ng-view>
+</div>
+<script src="/vendor.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
