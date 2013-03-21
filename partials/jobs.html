@@ -1,0 +1,29 @@
+<form class="form-inline">
+	<label for="searchSkill">
+		Search by skill:
+	</label>
+	<input id="searchSkill" type="text" ng-model="searchSkill"/>
+</form>
+
+<ul class="jobs">
+	<li class="job" ng-repeat="job in jobs | filter:{skills:searchSkill}| orderBy:'-finishTimestamp'">
+		<h2 class="position">
+			{{job.position}}
+			<span ng-show="job.company">at {{job.company}}</span>
+			<small ng-show="job.href"><a href="{{job.href}}">{{job.href}}</a></small>
+		</h2>
+		<p class="time">
+			{{ job.startTimestamp | date:'MMMM yy' }}
+			<span ng-show="job.finishTimestamp">
+				&mdash;
+				{{ job.finishTimestamp | date:'MMMM yy' }}
+			</span>
+
+			({{ job.startTimestamp | howLong:job.finishTimestamp }})
+		</p>
+		<ul class="skills">
+			<li class="skill" ng-repeat="skill in job.skills"><a class="label important">{{skill}}</a></li>
+		</ul>
+		<p ng-bind-html-unsafe="job.notes"></p>
+	</li>
+</ul>

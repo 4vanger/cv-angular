@@ -1,0 +1,90 @@
+[
+	{
+		"id": "itgrp",
+		"company": "IT Group",
+		"href": "http://www.itgrp.net/",
+		"position": "Web developer, project manager",
+		"notes": "My first job, using Ruby (my love!), first projects with JS. Acting as a project manager.",
+		"skills": ["ruby", "html", "javascript", "postgresql", "project management"], 
+		"startTimestamp": 1044057600000,
+		"finishTimestamp": 1096588800000
+	},
+	{
+		"id": "uwiss",
+		"company": "U-wiss",
+		"href": "http://www.u-wiss.com/",
+		"position": "Java/Javascript web developer",
+		"notes": "Started as a Java developer - building all that huge ERP, B2B systems using JBoss, EJB etc. Then switched to writing Javascript and stucked there for next 6 years (at present moment)",
+		"skills": ["java", "j2ee", "jsp", "postgresql", "sql", "javascript"],
+		"startTimestamp": 1096588800000,
+		"finishTimestamp": 1146441600000
+	},
+	{
+		"id": "rac",
+		"href": "http://www.rentacoder.com/",
+		"position": "Freelance developer",
+		"notes": "Great way to learn something new. Different tasks every day, working at night to get into customer timezone. Selling Javascript as my major skill.",
+		"skills": ["various", "overworking", "javascript"],
+		"startTimestamp": 1117584000000,
+		"finishTimestamp": 1133395200000
+	},
+	{
+		"id": "zapatec",
+		"company": "Zapatec",
+		"href": "http://www.zapatec.com/",
+		"position": "AJAX tech lead, department manager",
+		"notes": "Developing Zapatec AJAX Suite - commercial Javascript framework with very handy widgets. Opened an R&D office in Chernivtsi, Ukraine. Growing the team up to 12 developers.",
+		"startTimestamp": 1146441600000,
+		"skills": ["javascript", "management", "html", "css", "dhtml", "web2.0"],
+		"finishTimestamp": 1225497600000
+	},
+	{
+		"id": "funambol",
+		"company": "Funambol",
+		"href": "http://www.funambol.com/",
+		"position": "AJAX tech lead, department manager",
+		"notes": "Funambol acquired Zapatec and we concentrated on building solid web 2.0 app for working with phone sync data. <a href='http://my.funambol.com/' target='_blank'>Try it live</a>. Still managing ukrainian R&D office.",
+		"skills": ["javascript", "management", "mobile", "web2.0", "html", "css", "ux"],
+		"startTimestamp": 1225497600000,
+		"finishTimestamp": 1296518400000
+	},
+	{
+		"id": "appcelerator",
+		"company": "Appcelerator",
+		"href": "http://www.appcelerator.com/",
+		"position": "AJAX tech lead, department manager",
+		"notes": "After Funambol my team started working for Appcelerator. We've created environment for creating, managing and running black-box tests for mobile applications. Also in a very short term developed <a href='http://developer.appcelerator.com/blog/2011/05/major-titanium-updates.html' target='_blank'>HTML5 Mobile Web SDK</a> for running your Titanium projects inside browser.",
+		"skills": ["javascript", "management", "mobile", "html5", "ux"],
+		"startTimestamp": 1296518400000,
+		"finishTimestamp": 1338508800000
+		
+	},
+	{
+		"id": "milkandhoney",
+		"company": "Milk and Honey Shoes",
+		"href": "http://www.milkandhoneyshoes.com/",
+		"position": "Dev lead",
+		"notes": "Frontend development. Automating data export from Photoshop using PS Scripting",
+		"skills": ["html5", "ui", "ux", "photoshop scripting", "prototype.js"],
+		"startTimestamp": 1341100800000,
+		"finishTimestamp": 1351728000000
+	},
+	{
+		"id": "zabava",
+		"company": "Zabava",
+		"position": "Developer",
+		"notes": "Developing browser-based game machine.",
+		"skills": ["html5", "canvas", "animations"],
+		"startTimestamp": 1346457600000,
+		"finishTimestamp": 1351728000000
+	},
+	{
+		"id": "rr",
+		"company": "RailsReactor",
+		"href": "http://railsreactor.com/",
+		"position": "UI architect",
+		"notes": "Working on different projects. Developing project architecture from scratch.",
+		"skills": ["html5", "d3 framework", "css", "ui", "ux", "backbone.js", "jquery", "html5 apis"],
+		"startTimestamp": 1351728000000
+	}
+]

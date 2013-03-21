@@ -28,6 +28,7 @@ module.exports = (grunt) ->
 			vendor:
 				src: [
 					'js/vendor/angular/angular.js'
+					'js/vendor/angular/angular-resource.js'
 				]
 				dest: 'dist/vendor.js'
 			app:
@@ -77,7 +78,7 @@ module.exports = (grunt) ->
 		watch:
 			js:
 				files: [
-					'js/**/*.coffee'
+					'js/**/**/*.coffee'
 					'js/**/*.js'
 				]
 				tasks: ['coffee', 'concat']

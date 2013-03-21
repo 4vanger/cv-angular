@@ -1,1 +1,33 @@
 @import 'bootstrap/bootstrap.less';
+[ng-view] {
+	margin-top: 60px;
+}
+.jobs {
+	margin-left: 0;
+	list-style: none;
+	.job {
+		margin-bottom: 1em;
+		.position {
+			margin-bottom: 0;
+			font-size: 20px;
+		}
+
+		.time {
+			margin-bottom: 0;
+		}
+
+		.skills {
+			margin-left: 0;
+			list-style: none;
+			.clearfix;
+
+			.skill {
+				float: left;
+				margin-left: 5px;
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

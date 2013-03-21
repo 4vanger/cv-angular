@@ -14,8 +14,41 @@ angular.module("CV").run(["$templateCache", function($templateCache) {
     "	<p>When I got interested how whisky is made - I built my own distillery at home. Yes, I'm hacker - I'm interested how things are made. When something is not working correctly - I will get to the root of problem, fix it and learn from that. I hate poorly written code, incorrect indents or inconsistently named variables. Code should be perfect - only then it will work correctly.</p>" +
     "	<p>I love Javascript a lot because it is so easy and agile. And today I could write anything with Javascript - not only browser UI, but also server-side and mobile apps. I love it so much that even this resume is written on Javascript - check out page source.</p>" +
     "	<p>I live in Ukraine, but I'm ok to relocate if necessary.</p>" +
-    "	<p>Don't forget to check <a href=\"#!/jobs\">list of companies, I was working for before</a> and <a href=\"#!/projects\">projects, I am proud of</a>. Feel free to <a href=\"#!/contacts\">contact me</a> if you need my help.</p>" +
+    "	<p>Don't forget to check <a href=\"#/jobs\">list of companies, I was working for before</a> and <a href=\"#/projects\">projects, I am proud of</a>. Feel free to <a href=\"#/contacts\">contact me</a> if you need my help.</p>" +
     "</div>" +
+    ""
+  );
+
+  $templateCache.put("partials/jobs.html",
+    "<form class=\"form-inline\">" +
+    "	<label for=\"searchSkill\">" +
+    "		Search by skill:" +
+    "	</label>" +
+    "	<input id=\"searchSkill\" type=\"text\" ng-model=\"searchSkill\"/>" +
+    "</form>" +
+    "" +
+    "<ul class=\"jobs\">" +
+    "	<li class=\"job\" ng-repeat=\"job in jobs | filter:{skills:searchSkill}| orderBy:'-finishTimestamp'\">" +
+    "		<h2 class=\"position\">" +
+    "			{{job.position}}" +
+    "			<span ng-show=\"job.company\">at {{job.company}}</span>" +
+    "			<small ng-show=\"job.href\"><a href=\"{{job.href}}\">{{job.href}}</a></small>" +
+    "		</h2>" +
+    "		<p class=\"time\">" +
+    "			{{ job.startTimestamp | date:'MMMM yy' }}" +
+    "			<span ng-show=\"job.finishTimestamp\">" +
+    "				&mdash;" +
+    "				{{ job.finishTimestamp | date:'MMMM yy' }}" +
+    "			</span>" +
+    "" +
+    "			({{ job.startTimestamp | howLong:job.finishTimestamp }})" +
+    "		</p>" +
+    "		<ul class=\"skills\">" +
+    "			<li class=\"skill\" ng-repeat=\"skill in job.skills\"><a class=\"label important\">{{skill}}</a></li>" +
+    "		</ul>" +
+    "		<p ng-bind-html-unsafe=\"job.notes\"></p>" +
+    "	</li>" +
+    "</ul>" +
     ""
   );
 
