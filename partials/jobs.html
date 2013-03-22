@@ -1,15 +1,17 @@
-<form class="form-inline clearfix">
-	<p class="lead pull-left">Great companies I was working for</p>
-	<div class="input-append pull-right">
-		<input type="text" ng-model="search.skill" placeholder="type skill here"/>
-		<span class="add-on clickable" ng-click="search.skill = ''"><i class="icon icon-trash"></i></span>
+<div ng-hide="jobs.length">Loading...</div>
+<div ng-show="jobs.length">
+		<form class="form-inline clearfix">
+		<p class="lead pull-left">Great companies I was working for</p>
+		<div class="input-append pull-right">
+			<input type="text" ng-model="search.skill" placeholder="type skill here"/>
+			<span class="add-on clickable" ng-click="search.skill = ''"><i class="icon icon-trash"></i></span>
+		</div>
+	</form>
+
+	<ul class="jobs">
+		<job ng-repeat="job in filteredJobs = jobs | filter:{skills:search.skill}| orderBy:'-startTimestamp'" data="job" search="search"></job>
+	</ul>
+	<div ng-hide="filteredJobs">
+		Nothing found. <a ng-click="search.skill = ''">Reset search criteries.</a>
 	</div>
-</form>
-
-<ul class="jobs">
-	<job ng-repeat="job in filteredJobs = jobs | filter:{skills:search.skill}| orderBy:'-startTimestamp'" data="job" search="search"></job>
-</ul>
-<div ng-hide="filteredJobs">
-	Nothing found. <a ng-click="search.skill = ''">Reset search criteries.</a>
 </div>
-

@@ -17,13 +17,6 @@ module.exports = (grunt) ->
 					src: ['**'],
 					dest: 'dist/'
 				]
-			'partials':
-				files: [
-					expand: true
-					cwd: 'partials/'
-					src: ['**'],
-					dest: 'dist/partials'
-				]
 		concat:
 			vendor:
 				src: [
@@ -70,11 +63,9 @@ module.exports = (grunt) ->
 					"dist/css.css": ['less/main.less']
 		uglify:
 			js:
-				src: [
-					'<config:concat.vendor.dest>'
-					'<config:concat.app.dest>'
-				],
-				dest: 'dist/js.min.js'
+				files:
+					'dist/vendor.js': 'dist/vendor.js'
+					'dist/app.js': 'dist/app.js'
 		watch:
 			js:
 				files: [

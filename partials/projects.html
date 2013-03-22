@@ -1,22 +1,25 @@
-<form class="form-inline clearfix strip-bottom">
-	<p class="lead pull-left">Cool projects that I've developed</p>
-	<div class="input-append pull-right">
-		<input type="text" ng-model="search.skill" placeholder="type skill here"/>
-		<span class="add-on clickable" ng-click="resetSearch()"><i class="icon icon-trash"></i></span>
-	</div>
-</form>
-<form class="form-inline clearfix">
-	<label class="checkbox">
-		<input type="checkbox" ng-model="search.fulltimeProjects"> Full-time projects
-	</label>
-	<label class="checkbox">
-		<input type="checkbox" ng-model="search.petProjects"> Pet projects
-	</label>
-</form>
+<div ng-hide="projects.length">Loading...</div>
+<div ng-show="projects.length">
+	<form class="form-inline clearfix strip-bottom">
+		<p class="lead pull-left">Cool projects that I've developed</p>
+		<div class="input-append pull-right">
+			<input type="text" ng-model="search.skill" placeholder="type skill here"/>
+			<span class="add-on clickable" ng-click="resetSearch()"><i class="icon icon-trash"></i></span>
+		</div>
+	</form>
+	<form class="form-inline clearfix">
+		<label class="checkbox">
+			<input type="checkbox" ng-model="search.fulltimeProjects"> Full-time projects
+		</label>
+		<label class="checkbox">
+			<input type="checkbox" ng-model="search.petProjects"> Pet projects
+		</label>
+	</form>
 
-<ul class="projects">
-	<project ng-repeat="project in filteredProjects = projects | filter:{skills:search.skill} | filter:filterByType | orderBy:'-startTimestamp'" data="project" search="search"></project>
-</ul>
-<div ng-hide="filteredProjects">
-	Nothing found. <a ng-click="resetSearch()">Reset search criteries.</a>
+	<ul class="projects">
+		<project ng-repeat="project in filteredProjects = projects | filter:{skills:search.skill} | filter:filterByType | orderBy:'-startTimestamp'" data="project" search="search"></project>
+	</ul>
+	<div ng-hide="filteredProjects">
+		Nothing found. <a ng-click="resetSearch()">Reset search criteries.</a>
+	</div>
 </div>

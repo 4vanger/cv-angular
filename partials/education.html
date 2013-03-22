@@ -1,4 +1,5 @@
-<ul class="educations">
+<div ng-hide="educations.length">Loading...</div>
+<ul class="educations" ng-show="educations.length">
 	<li ng-repeat="education in educations" class="education">
 		<div ng-show="education.type == 'education'">
 			<h2 class="title">{{education.name}}</h2>
@@ -20,4 +21,3 @@
 		</div>
 	</li>
 </ul>
-
