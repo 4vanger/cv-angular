@@ -6,5 +6,5 @@
 </form>
 
 <ul class="jobs">
-	<job ng-repeat="job in jobs | filter:{skills:search.skill}| orderBy:'-finishTimestamp'" data="job" search="search"></job>
+	<job ng-repeat="job in jobs | filter:{skills:search.skill}| orderBy:'-startTimestamp'" data="job" search="search"></job>
 </ul>

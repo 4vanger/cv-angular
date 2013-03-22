@@ -13,9 +13,7 @@
 		({{ job.startTimestamp | howLong:job.finishTimestamp }})
 	</p>
 	<ul class="skills">
-		<li class="skill" ng-repeat="skill in job.skills">
-			<a class="label important" ng-click="search.skill = skill">{{skill}}</a>
-		</li>
+		<skill ng-repeat="skill in job.skills | sort" data="skill" search="search">{{skill}}</skill>
 	</ul>
 	<p ng-bind-html-unsafe="job.notes"></p>
 </li>
