@@ -10,6 +10,9 @@ configFn = (routeProvider, httpProvider) ->
 			controller: 'ProjectsCtrl'
 			templateUrl: 'partials/projects.html'
 			reloadOnSearch: false
+		.when '/education',
+			controller: 'EducationCtrl'
+			templateUrl: 'partials/education.html'
 		.otherwise
 			controller: 'NotFoundCtrl'
 			templateUrl: 'partials/404.html'
