@@ -13,6 +13,8 @@ configFn = (routeProvider, httpProvider) ->
 		.when '/education',
 			controller: 'EducationCtrl'
 			templateUrl: 'partials/education.html'
+		.when '/contacts',
+			templateUrl: 'partials/contacts.html'
 		.otherwise
 			controller: 'NotFoundCtrl'
 			templateUrl: 'partials/404.html'
