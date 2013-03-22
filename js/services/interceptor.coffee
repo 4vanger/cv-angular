@@ -8,7 +8,7 @@ angular.module('CV').factory 'ResponseConverter', ['$q', (q) ->
 			switch(response.config.url)
 				when '/api/projects.json', '/api/jobs.json'
 					for obj in response.data
-						obj.startTimestamp = dateStr2date(obj.startTimestamp)
-						obj.finishTimestamp = dateStr2date(obj.finishTimestamp)
+						obj.start = dateStr2date(obj.start)
+						obj.finish = dateStr2date(obj.finish)
 			response
 ]

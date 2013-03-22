@@ -9,8 +9,8 @@
 			"technical" : ["ruby", "html", "javascript", "postgresql"],
 			"managerial" : ["project management"]
 		},
-		"startTimestamp": "Feb 2003",
-		"finishTimestamp": "Oct 2004"
+		"start": "Feb 2003",
+		"finish": "Oct 2004"
 	},
 	{
 		"id": "uwiss",
@@ -21,8 +21,8 @@
 		"skills": {
 			"technical" : ["java", "j2ee", "jsp", "postgresql", "sql", "javascript"]
 		},
-		"startTimestamp": "Oct 2004",
-		"finishTimestamp": "May 2006"
+		"start": "Oct 2004",
+		"finish": "May 2006"
 	},
 	{
 		"id": "rac",
@@ -33,8 +33,8 @@
 			"technical" : ["javascript", "html", "css"],
 			"managerial" : ["lack of sleep", "selling myself"]
 		},
-		"startTimestamp": "Jun 2005",
-		"finishTimestamp": "May 2005"
+		"start": "Jun 2005",
+		"finish": "May 2005"
 	},
 	{
 		"id": "zapatec",
@@ -46,8 +46,8 @@
 			"technical" : ["javascript", "html", "css", "dhtml", "web2.0"],
 			"managerial" : ["office work administration", "team leading", "team building", "project management"]
 		},
-		"startTimestamp": "May 2006",
-		"finishTimestamp": "Nov 2008"
+		"start": "May 2006",
+		"finish": "Nov 2008"
 	},
 	{
 		"id": "funambol",
@@ -59,8 +59,8 @@
 			"technical" : ["javascript", "mobile", "web2.0", "html", "css", "ux"],
 			"managerial" : ["office work administration", "team leading", "team building"]
 		},
-		"startTimestamp": "Nov 2008",
-		"finishTimestamp": "Jan 2011"
+		"start": "Nov 2008",
+		"finish": "Jan 2011"
 	},
 	{
 		"id": "appcelerator",
@@ -72,8 +72,8 @@
 			"technical" : ["javascript", "mobile", "html5", "ux"],
 			"managerial" : ["office work administration", "team leading", "team building"]
 		},
-		"startTimestamp": "Feb 2011",
-		"finishTimestamp": "Jun 2012"
+		"start": "Feb 2011",
+		"finish": "Jun 2012"
 		
 	},
 	{
@@ -85,8 +85,8 @@
 		"skills": {
 			"technical" : ["html5", "ui", "ux", "photoshop scripting", "prototype.js"]
 		},
-		"startTimestamp": "Jul 2012",
-		"finishTimestamp": "Nov 2012"
+		"start": "Jul 2012",
+		"finish": "Nov 2012"
 	},
 	{
 		"id": "zabava",
@@ -96,8 +96,8 @@
 		"skills": {
 			"technical" : ["html5", "architecture", "canvas", "animations", "web sockets"]
 		},
-		"startTimestamp": "Sep 2012",
-		"finishTimestamp": "Nov 2012"
+		"start": "Sep 2012",
+		"finish": "Nov 2012"
 	},
 	{
 		"id": "rr",
@@ -108,6 +108,6 @@
 		"skills": {
 			"technical" : ["html5", "architecture", "d3 framework", "css", "ui", "ux", "backbone.js", "jquery", "html5 apis", "angular.js"]
 		},
-		"startTimestamp": "Nov 2012"
+		"start": "Nov 2012"
 	}
 ]

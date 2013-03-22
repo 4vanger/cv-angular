@@ -7,9 +7,8 @@
 		"skills": {
 			"technical": ["html5", "backbone.js"]
 		},
-		"status": "Done.",
-		"startTimestamp": "Jan 2013 GMT",
-		"finishTimestamp": "Feb 2013"
+		"start": "Jan 2013 GMT",
+		"finish": "Feb 2013"
 	},
 	{
 		"id": "rr2",
@@ -19,7 +18,7 @@
 		"skills": {
 			"technical": ["html5", "ui", "backbone.js", "bootstrap", "d3 framework", "less"]
 		},
-		"startTimestamp": "Dec 2012"
+		"start": "Dec 2012"
 	},
 	{
 		"id": "rr1",
@@ -29,8 +28,8 @@
 		"skills": {
 			"technical": ["html5", "ui", "backbone.js", "bootstrap", "leaflet.js", "less"]
 		},
-		"startTimestamp": "Nov 2012",
-		"finishTimestamp": "Dec 2012"
+		"start": "Nov 2012",
+		"finish": "Dec 2012"
 	},
 	{
 		"id": "milkandhoney",
@@ -41,9 +40,8 @@
 		"skills": {
 			"technical": ["html5", "ui", "ux", "photoshop scripting", "prototype.js"]
 		},
-		"status": "Working",
-		"startTimestamp": "Jul 2012",
-		"finishTimestamp": "Oct 2012"
+		"start": "Jul 2012",
+		"finish": "Oct 2012"
 	},
 	{
 		"id": "oolli2",
@@ -54,7 +52,7 @@
 			"technical": ["javascript", "backbone.js", "bootstrap", "less"],
 			"managerial": ["entrepreneur skills", "executive summary", "product development"]
 		},
-		"startTimestamp": "Jan 2011"
+		"start": "Jan 2011"
 	},
 	{
 		"id": "bugazza",
@@ -65,15 +63,15 @@
 		"skills": {
 			"managerial": ["hiring great people", "team building", "office work administration", "finding customers"]
 		},
-		"startTimestamp": "May 2006",
-		"finishTimestamp": "Jun 2012"
+		"start": "May 2006",
+		"finish": "Jun 2012"
 	},
 	{
 		"id": "emn",
 		"type": "pet",
 		"name": "Email-Me-Not",
 		"href": "https://www.email-me-not.com/",
-		"startTimestamp": "May 2010",
+		"start": "May 2010",
 		"description": "Stores account data for your online accounts, provides good unique passwords, strongly encrypts everything, provides unique email address for every account that redirects mail for your account. Project is launched and actively used by myself and my friends. For public usage must spent more time on design and bug fixing",
 		"skills": {
 			"technical": ["mail server usage", "javascript", "jquery", "encryption in php"]
@@ -88,8 +86,8 @@
 			"technical": ["javascript", "jQuery mobile"],
 			"managerial": ["entrepreneur skills", "pitching", "writing executive summary", "financial and business models"]
 		},
-		"startTimestamp": "Feb 2011",
-		"finishTimestamp": "Apr 2011"
+		"start": "Feb 2011",
+		"finish": "Apr 2011"
 	},
 	{
 		"id": "oolli",
@@ -100,8 +98,8 @@
 			"technical": ["javascript", "jQuery", "oAuth", "FB Graph API"],
 			"managerial": ["gamification", "entrepreneur skills", "elevator pitch", "executive summary"]
 		},
-		"startTimestamp": "Sep 2010",
-		"finishTimestamp": "Dec 2010"
+		"start": "Sep 2010",
+		"finish": "Dec 2010"
 	},
 	{
 		"id": "appcelerator_docs",
@@ -112,8 +110,8 @@
 		"skills": {
 			"technical": ["javascript", "css", "html", "JSDuck", "python", "ruby", "Ext.JS"]
 		},
-		"startTimestamp": "Jan 2012",
-		"finishTimestamp": "Jun 2011"
+		"start": "Jan 2012",
+		"finish": "Jun 2011"
 	},
 	{
 		"id": "appcelerator",
@@ -125,8 +123,8 @@
 			"technical": ["javascript", "css", "html5", "titanium mobile"],
 			"managerial": ["team leading", "project management"]
 		},
-		"startTimestamp": "May 2011",
-		"finishTimestamp": "Jul 2012"
+		"start": "May 2011",
+		"finish": "Jul 2012"
 	},
 	{
 		"id": "funambol",
@@ -138,8 +136,8 @@
 			"technical": ["javascript", "css", "html"],
 			"managerial": ["team leading", "scrum"]
 		},
-		"startTimestamp": "Sep 2009",
-		"finishTimestamp": "Jan 2011"
+		"start": "Sep 2009",
+		"finish": "Jan 2011"
 	},
 	{
 		"id": "6zap",
@@ -151,8 +149,8 @@
 			"technical": ["javascript", "css", "html", "zapatec framework", "architecture"],
 			"managerial": ["team leading", "project management"]
 		},
-		"startTimestamp": "Jan 2009",
-		"finishTimestamp": "Feb 2011"
+		"start": "Jan 2009",
+		"finish": "Feb 2011"
 	},
 	{
 		"id": "zapatec_ajax_framework",
@@ -164,7 +162,7 @@
 			"technical": ["javascript", "css", "html", "zapatec framework", "architecture"],
 			"managerial": ["team leading", "project management"]
 		},
-		"startTimestamp": "May 2006",
-		"finishTimestamp": "Sep 2009"
+		"start": "May 2006",
+		"finish": "Sep 2009"
 	}
 ]

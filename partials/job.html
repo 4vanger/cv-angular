@@ -5,12 +5,12 @@
 		<small ng-show="job.href"><a href="{{job.href}}">{{job.href}}</a></small>
 	</h2>
 	<p class="time">
-		{{ job.startTimestamp | date:'MMMM yyyy' }}
+		{{ job.start | date:'MMMM yyyy' }}
 		&mdash;
-		<span ng-show="job.finishTimestamp">{{job.finishTimestamp | date:'MMMM yyyy'}}</span>
-		<span ng-hide="job.finishTimestamp"> current</span>
+		<span ng-show="job.finish">{{job.finish | date:'MMMM yyyy'}}</span>
+		<span ng-hide="job.finish"> current</span>
 
-		({{ job.startTimestamp | howLong:job.finishTimestamp }})
+		({{ job.start | howLong:job.finish}})
 	</p>
 	<skills data="job.skills" search="search"></skills>
 	<p ng-bind-html-unsafe="job.notes"></p>

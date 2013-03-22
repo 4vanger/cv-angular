@@ -6,12 +6,12 @@
 		{{project.name}}
 	</h2>
 	<p class="time">
-		{{ project.startTimestamp | date:'MMMM yyyy' }}
+		{{ project.start | date:'MMMM yyyy' }}
 		&mdash;
-		<span ng-show="project.finishTimestamp">{{project.finishTimestamp | date:'MMMM yyyy'}}</span>
-		<span ng-hide="project.finishTimestamp"> current</span>
+		<span ng-show="project.finish">{{project.finish | date:'MMMM yyyy'}}</span>
+		<span ng-hide="project.finish"> current</span>
 
-		({{ project.startTimestamp | howLong:project.finishTimestamp }})
+		({{ project.start | howLong:project.finish }})
 	</p>
 	<skills data="project.skills" search="search"></skills>
 	<p ng-bind-html-unsafe="project.description"></p>
