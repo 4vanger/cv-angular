@@ -3,5 +3,6 @@ angular.module('CV').directive 'skill', ->
 	scope:
 		skill: '=data'
 		search: '='
+		type: '@'
 	templateUrl: 'partials/skill.html'
 	replace: true

@@ -13,8 +13,6 @@
 
 		({{ project.startTimestamp | howLong:project.finishTimestamp }})
 	</p>
-	<ul class="skills">
-		<skill ng-repeat="skill in project.skills" data="skill" search="search"></skill>
-	</ul>
+	<skills data="project.skills" search="search"></skills>
 	<p ng-bind-html-unsafe="project.description"></p>
 </li>

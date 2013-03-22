@@ -5,7 +5,10 @@
 		"href": "http://www.itgrp.net/",
 		"position": "Web developer, project manager",
 		"notes": "My first job, using Ruby (my love!), first projects with JS. Acting as a project manager.",
-		"skills": ["ruby", "html", "javascript", "postgresql", "project management"], 
+		"skills": {
+			"technical" : ["ruby", "html", "javascript", "postgresql"],
+			"managerial" : ["project management"]
+		},
 		"startTimestamp": "Feb 2003",
 		"finishTimestamp": "Oct 2004"
 	},
@@ -15,7 +18,9 @@
 		"href": "http://www.u-wiss.com/",
 		"position": "Java/Javascript web developer",
 		"notes": "Started as a Java developer - building all that huge ERP, B2B systems using JBoss, EJB etc. Then switched to writing Javascript and stucked there for next 6 years (at present moment)",
-		"skills": ["java", "j2ee", "jsp", "postgresql", "sql", "javascript"],
+		"skills": {
+			"technical" : ["java", "j2ee", "jsp", "postgresql", "sql", "javascript"]
+		},
 		"startTimestamp": "Oct 2004",
 		"finishTimestamp": "May 2006"
 	},
@@ -24,7 +29,10 @@
 		"href": "http://www.rentacoder.com/",
 		"position": "Freelance developer",
 		"notes": "Great way to learn something new. Different tasks every day, working at night to get into customer timezone. Selling Javascript as my major skill.",
-		"skills": ["various", "overworking", "javascript"],
+		"skills": {
+			"technical" : ["javascript", "html", "css"],
+			"managerial" : ["lack of sleep", "selling myself"]
+		},
 		"startTimestamp": "Jun 2005",
 		"finishTimestamp": "May 2005"
 	},
@@ -34,7 +42,10 @@
 		"href": "http://www.zapatec.com/",
 		"position": "AJAX tech lead, department manager",
 		"notes": "Developing Zapatec AJAX Suite - commercial Javascript framework with very handy widgets. Opened an R&D office in Chernivtsi, Ukraine. Growing the team up to 12 developers.",
-		"skills": ["javascript", "management", "html", "css", "dhtml", "web2.0"],
+		"skills": {
+			"technical" : ["javascript", "html", "css", "dhtml", "web2.0"],
+			"managerial" : ["office work administration", "team leading", "team building", "project management"]
+		},
 		"startTimestamp": "May 2006",
 		"finishTimestamp": "Nov 2008"
 	},
@@ -44,7 +55,10 @@
 		"href": "http://www.funambol.com/",
 		"position": "AJAX tech lead, department manager",
 		"notes": "Funambol acquired Zapatec and we concentrated on building solid web 2.0 app for working with phone sync data. <a href='http://my.funambol.com/' target='_blank'>Try it live</a>. Still managing ukrainian R&D office.",
-		"skills": ["javascript", "management", "mobile", "web2.0", "html", "css", "ux"],
+		"skills": {
+			"technical" : ["javascript", "mobile", "web2.0", "html", "css", "ux"],
+			"managerial" : ["office work administration", "team leading", "team building"]
+		},
 		"startTimestamp": "Nov 2008",
 		"finishTimestamp": "Jan 2011"
 	},
@@ -54,7 +68,10 @@
 		"href": "http://www.appcelerator.com/",
 		"position": "AJAX tech lead, department manager",
 		"notes": "After Funambol my team started working for Appcelerator. We've created environment for creating, managing and running black-box tests for mobile applications. Also in a very short term developed <a href='http://developer.appcelerator.com/blog/2011/05/major-titanium-updates.html' target='_blank'>HTML5 Mobile Web SDK</a> for running your Titanium projects inside browser.",
-		"skills": ["javascript", "management", "mobile", "html5", "ux"],
+		"skills": {
+			"technical" : ["javascript", "mobile", "html5", "ux"],
+			"managerial" : ["office work administration", "team leading", "team building"]
+		},
 		"startTimestamp": "Feb 2011",
 		"finishTimestamp": "Jun 2012"
 		
@@ -65,7 +82,9 @@
 		"href": "http://www.milkandhoneyshoes.com/",
 		"position": "Dev lead",
 		"notes": "Frontend development. Automating data export from Photoshop using PS Scripting",
-		"skills": ["html5", "ui", "ux", "photoshop scripting", "prototype.js"],
+		"skills": {
+			"technical" : ["html5", "ui", "ux", "photoshop scripting", "prototype.js"]
+		},
 		"startTimestamp": "Jul 2012",
 		"finishTimestamp": "Nov 2012"
 	},
@@ -73,8 +92,10 @@
 		"id": "zabava",
 		"company": "Zabava",
 		"position": "Developer",
-		"notes": "Developing browser-based game machine.",
-		"skills": ["html5", "canvas", "animations"],
+		"notes": "Developing browser-based slot machine. Designing scalable and easy to extend architecture to develop numerous games on top of it. ",
+		"skills": {
+			"technical" : ["html5", "architecture", "canvas", "animations", "web sockets"]
+		},
 		"startTimestamp": "Sep 2012",
 		"finishTimestamp": "Nov 2012"
 	},
@@ -83,8 +104,10 @@
 		"company": "RailsReactor",
 		"href": "http://railsreactor.com/",
 		"position": "UI architect",
-		"notes": "Working on different projects. Developing project architecture from scratch.",
-		"skills": ["html5", "d3 framework", "css", "ui", "ux", "backbone.js", "jquery", "html5 apis"],
+		"notes": "Building project architecture for new projects from scratch. Working in a team with backend developers and designers to quickly bring online modern and easy to use web services.",
+		"skills": {
+			"technical" : ["html5", "architecture", "d3 framework", "css", "ui", "ux", "backbone.js", "jquery", "html5 apis", "angular.js"]
+		},
 		"startTimestamp": "Nov 2012"
 	}
 ]

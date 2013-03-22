@@ -3,8 +3,10 @@
 		"id": "rr3",
 		"type": "fulltime",
 		"name": "Web app",
-		"description": "Working within a team to create web app within very tight deadlines. Link on request.",
-		"skills": ["html5", "backbone.js"],
+		"description": "Working within a team to create web app at very tight deadlines. Ruby on rails backend.",
+		"skills": {
+			"technical": ["html5", "backbone.js"]
+		},
 		"status": "Done.",
 		"startTimestamp": "Jan 2013 GMT",
 		"finishTimestamp": "Feb 2013"
@@ -13,18 +15,20 @@
 		"id": "rr2",
 		"type": "fulltime",
 		"name": "Tree visualize",
-		"description": "UI tool for entering, managing, linking between entities. User determines type of every entity and fields it has. Link on request.",
-		"skills": ["html5", "ui", "backbone.js", "bootstrap", "d3 framework", "LESS"],
-		"status": "In progress.",
+		"description": "UI tool for entering, managing, linking between entities. User determines type of every entity and fields it has.",
+		"skills": {
+			"technical": ["html5", "ui", "backbone.js", "bootstrap", "d3 framework", "less"]
+		},
 		"startTimestamp": "Dec 2012"
 	},
 	{
 		"id": "rr1",
 		"type": "fulltime",
 		"name": "Map builder",
-		"description": "Created an UI tool to show UI controls over HUGE (16000x8000) PNG image to jump between different parts of a map. Link on request.",
-		"skills": ["html5", "ui", "backbone.js", "bootstrap", "leaflet", "LESS"],
-		"status": "Stopped after developed product prototype.",
+		"description": "Develop an UI tool to show UI controls over HUGE (16000x8000) PNG image to jump between different parts of a map.",
+		"skills": {
+			"technical": ["html5", "ui", "backbone.js", "bootstrap", "leaflet.js", "less"]
+		},
 		"startTimestamp": "Nov 2012",
 		"finishTimestamp": "Dec 2012"
 	},
@@ -33,8 +37,10 @@
 		"type": "fulltime",
 		"name": "Shoe builder",
 		"href": "http://www.milkandhoneyshoes.com/design-it.html",
-		"description": "Develop your own shoe design using step-by-step wizard",
-		"skills": ["html5", "ui", "ux", "photoshop scripting", "prototype.js"],
+		"description": "Develop your own shoe design using step-by-step wizard. Developed set of script to automate ",
+		"skills": {
+			"technical": ["html5", "ui", "ux", "photoshop scripting", "prototype.js"]
+		},
 		"status": "Working",
 		"startTimestamp": "Jul 2012",
 		"finishTimestamp": "Oct 2012"
@@ -43,9 +49,11 @@
 		"id": "oolli2",
 		"type": "pet",
 		"name": "Oolli",
-		"description": "Collector's website - find stamps, request stamps information, get stamp value estimations. Highly-scalable project.",
-		"skills": ["javascript", "backbone.js", "bootstrap", "management", "LESS"],
-		"status": "Working",
+		"description": "Collector's website - find stamps, request stamps information, get stamp value estimations. Highly-scalable project. Acting as serious entrepreneurs - product development, failing quickly, beeing agile.",
+		"skills": {
+			"technical": ["javascript", "backbone.js", "bootstrap", "less"],
+			"managerial": ["entrepreneur skills", "executive summary", "product development"]
+		},
 		"startTimestamp": "Jan 2011"
 	},
 	{
@@ -53,9 +61,10 @@
 		"type": "pet",
 		"name": "Bugazza team",
 		"href": "http://www.bugazza.com/",
-		"description": "Created a team and grew it from scratch.",
-		"skills": ["Hiring people", "firing people", "team building", "supporting office work", "finding customers"],
-		"status": "Great team. Enjoyed working with my friends every day.",
+		"description": "Founded and grew up a kick-ass team. Enjoyed working with my friends every day.",
+		"skills": {
+			"managerial": ["hiring great people", "team building", "office work administration", "finding customers"]
+		},
 		"startTimestamp": "May 2006",
 		"finishTimestamp": "Jun 2012"
 	},
@@ -65,17 +74,20 @@
 		"name": "Email-Me-Not",
 		"href": "https://www.email-me-not.com/",
 		"startTimestamp": "May 2010",
-		"description": "Stores account data for your online accounts, provides good unique passwords, strongly encrypts everything, provides unique email address for every account that redirects mail for your account.",
-		"status": "Launched, actively using myself. For public usage must spent more time on design and bug fixing",
-		"skills": ["Mail server usage", "javascript", "jQuery", "encryption in PHP"]
+		"description": "Stores account data for your online accounts, provides good unique passwords, strongly encrypts everything, provides unique email address for every account that redirects mail for your account. Project is launched and actively used by myself and my friends. For public usage must spent more time on design and bug fixing",
+		"skills": {
+			"technical": ["mail server usage", "javascript", "jquery", "encryption in php"]
+		}
 	},
 	{
 		"id": "sb",
 		"type": "pet",
 		"name": "Service Book",
-		"description": "Low-end cell phones application to provide a local services directory. Order taxi, pizza or get latest football results using your feature phone.",
-		"skills": ["Entrepreneur skills", "pitching", "writing executive summary", "financial and business models", "javascript", "jQuery mobile"],
-		"status": "Closed. We had great idea and business advisory, almost had our first big customer. Decided to stop development because this is not our area of competence.",
+		"description": "Low-end cell phones application to provide a local services directory. Order taxi, pizza or get latest football results using your feature phone in BRIC countries.",
+		"skills": {
+			"technical": ["javascript", "jQuery mobile"],
+			"managerial": ["entrepreneur skills", "pitching", "writing executive summary", "financial and business models"]
+		},
 		"startTimestamp": "Feb 2011",
 		"finishTimestamp": "Apr 2011"
 	},
@@ -83,9 +95,11 @@
 		"id": "oolli",
 		"type": "pet",
 	    "name": "Social game",
-		"description": "Play using modern web-services like twitter or facebook. Do some social actions as a challenges.",
-		"skills": ["javascript", "jQuery", "oAuth", "FB Graph API", "gamification", "challenges", "entrepreneur", "elevator pitch", "executive summary"],
-		"status": "Dead - after all development we figured out that there is no market for this product.",
+		"description": "Play using modern web-services like twitter or facebook. Do some social actions as a challenges. Closed - after all development we figured out that there is no market for this product. Lesson learned.",
+		"skills": {
+			"technical": ["javascript", "jQuery", "oAuth", "FB Graph API"],
+			"managerial": ["gamification", "entrepreneur skills", "elevator pitch", "executive summary"]
+		},
 		"startTimestamp": "Sep 2010",
 		"finishTimestamp": "Dec 2010"
 	},
@@ -94,9 +108,10 @@
 		"type": "fulltime",
 	    "name": "Appcelerator Titanium documentation system",
 		"href": "http://docs.appcelerator.com/",
-		"description": "Use <a href='https://github.com/senchalabs/jsduck'>JSDuck</a> to run documentation system for Titanium SDK.",
-		"skills": ["javascript", "css", "html", "JSDuck", "python", "ruby", "Ext.JS"],
-		"status": "Working.",
+		"description": "Use <a href='https://github.com/senchalabs/jsduck'>JSDuck</a> to run documentation system for Titanium SDK. Adapted source code a lot to fit into company requirments.",
+		"skills": {
+			"technical": ["javascript", "css", "html", "JSDuck", "python", "ruby", "Ext.JS"]
+		},
 		"startTimestamp": "Jan 2012",
 		"finishTimestamp": "Jun 2011"
 	},
@@ -105,11 +120,13 @@
 		"type": "fulltime",
 	    "name": "Appcelerator Mobile Web SDK",
 		"href": "http://www.appcelerator.com",
-		"description": "With my team created alpha version of Mobile Web SDK to compile Titanium Mobile application into HTML5+JS+CSS",
-		"skills": ["javascript", "css", "html5", "titanium mobile", "management"],
-		"status": "Working.",
-		"startTimestamp": "Feb 2011",
-		"finishTimestamp": "Jun 2012"
+		"description": "In almost no time my team created proof of concept version of Mobile Web SDK to compile Titanium Mobile application into HTML5+JS+CSS",
+		"skills": {
+			"technical": ["javascript", "css", "html5", "titanium mobile"],
+			"managerial": ["team leading", "project management"]
+		},
+		"startTimestamp": "May 2011",
+		"finishTimestamp": "Jul 2012"
 	},
 	{
 		"id": "funambol",
@@ -117,19 +134,23 @@
 	    "name": "Funambol Web Portal",
 		"href": "http://my.funambol.com",
 		"description": "Feature full web portal to work with data synchronized from your mobile devices. Used 6zap as a base.",
-		"skills": ["javascript", "css", "management", "scrum"],
-		"status": "Working.",
+		"skills": {
+			"technical": ["javascript", "css", "html"],
+			"managerial": ["team leading", "scrum"]
+		},
 		"startTimestamp": "Sep 2009",
 		"finishTimestamp": "Jan 2011"
 	},
 	{
 		"id": "6zap",
 		"type": "fulltime",
-	    "name": "Mail+Calendar+Files+Contacts+Groups",
+	    "name": "6Zap - enterprise portal",
 		"href": "http://www.6zap.com",
-		"description": "Enterprise level app with many interesting features.",
-		"skills": ["javascript", "css", "management"],
-		"status": "Aquired by Funambol and used as a base for creating Funambol Web Portal",
+		"description": "Gmail + Google calendar + Contacts + Drive + many more that you can download and istall for your users in a single-page app. In 2011 Funambol acquired the project to develop Funambol Web Portal.",
+		"skills": {
+			"technical": ["javascript", "css", "html", "zapatec framework", "architecture"],
+			"managerial": ["team leading", "project management"]
+		},
 		"startTimestamp": "Jan 2009",
 		"finishTimestamp": "Feb 2011"
 	},
@@ -138,9 +159,11 @@
 		"type": "fulltime",
 	    "name": "Zapatec AJAX framework",
 		"href": "http://www.zapatec.com",
-		"description": "Commercial AJAX Framework + set of cool widgets. Since this time I didn't saw more cool grid and calendar widgets that ours.",
-		"skills": ["javascript", "css", "html", "management"],
-		"status": "Aquired by Funambol and used for creating Funambol Web Portal",
+		"description": "Nobody even heard about jQuery and Dojo when we were successfully selling our commercial AJAX Framework + set of cool widgets. Later was aquired by Funambol and used for creating Funambol Web Portal",
+		"skills": {
+			"technical": ["javascript", "css", "html", "zapatec framework", "architecture"],
+			"managerial": ["team leading", "project management"]
+		},
 		"startTimestamp": "May 2006",
 		"finishTimestamp": "Sep 2009"
 	}
