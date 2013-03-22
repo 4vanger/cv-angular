@@ -75,7 +75,7 @@ angular.module("CV").run(["$templateCache", function($templateCache) {
     "		({{ project.startTimestamp | howLong:project.finishTimestamp }})" +
     "	</p>" +
     "	<ul class=\"skills\">" +
-    "		<li class=\"skill\" ng-repeat=\"skill in project.skills\">" +
+    "		<li class=\"skill\" ng-repeat=\"skill in project.skills | orderBy\">" +
     "			<a class=\"label important\" ng-click=\"search.skill = skill\">{{skill}}</a>" +
     "		</li>" +
     "	</ul>" +
@@ -90,10 +90,16 @@ angular.module("CV").run(["$templateCache", function($templateCache) {
     "		<input type=\"text\" ng-model=\"search.skill\" placeholder=\"type skill here\"/>" +
     "		<span class=\"add-on clickable\" ng-click=\"search.skill = ''\"><i class=\"icon icon-trash\"></i></span>" +
     "	</div>" +
+    "	<label class=\"checkbox\">" +
+    "		<input type=\"checkbox\" ng-model=\"search.fulltimeProjects\"> Full-time projects" +
+    "	</label>" +
+    "	<label class=\"checkbox\">" +
+    "		<input type=\"checkbox\" ng-model=\"search.petProjects\"> Pet projects" +
+    "	</label>" +
     "</form>" +
     "" +
     "<ul class=\"projects\">" +
-    "	<project ng-repeat=\"project in projects | filter:{skills:search.skill}| orderBy:'-startTimestamp'\" data=\"project\" search=\"search\"></project>" +
+    "	<project ng-repeat=\"project in projects | filter:{skills:search.skill} | filter:filterByType | orderBy:'-startTimestamp'\" data=\"project\" search=\"search\"></project>" +
     "</ul>" +
     ""
   );

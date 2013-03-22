@@ -83,11 +83,27 @@
 
   window.ProjectsCtrl = function(scope, projects, win, routeParams, location) {
     scope.search = {
-      skill: routeParams.skill || ''
+      skill: routeParams.skill || '',
+      fulltimeProjects: routeParams.fulltime || true,
+      petProjects: routeParams.pet || true
+    };
+    scope.filterByType = function(project) {
+      return project.type === 'pet' && scope.search.petProjects || project.type === 'fulltime' && scope.search.fulltimeProjects;
     };
     scope.projects = projects.query();
-    return scope.$watch('search.skill', function() {
-      return location.search('skill', scope.search.skill.length > 0 ? scope.search.skill : null);
+    return scope.$watch('search.skill + search.fulltimeProjects + search.petProjects', function() {
+      var obj;
+      obj = {};
+      if (scope.search.skill.length > 0) {
+        obj.skill = scope.search.skill;
+      }
+      if (scope.search.fulltimeProjects) {
+        obj.fulltime = true;
+      }
+      if (scope.search.petProjects) {
+        obj.pet = true;
+      }
+      return location.search(obj);
     });
   };
 
