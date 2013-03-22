@@ -1,8 +1,11 @@
-<form class="form-inline">
-	<div class="input-append">
+<form class="form-inline clearfix strip-bottom">
+	<p class="lead pull-left">Cool projects that I've developed</p>
+	<div class="input-append pull-right">
 		<input type="text" ng-model="search.skill" placeholder="type skill here"/>
 		<span class="add-on clickable" ng-click="resetSearch()"><i class="icon icon-trash"></i></span>
 	</div>
+</form>
+<form class="form-inline clearfix">
 	<label class="checkbox">
 		<input type="checkbox" ng-model="search.fulltimeProjects"> Full-time projects
 	</label>
