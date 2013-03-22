@@ -1,0 +1,147 @@
+[
+	{
+		"id": "rr3",
+		"type": "fulltime",
+		"name": "Web app",
+		"description": "Working within a team to create web app within very tight deadlines. Link on request.",
+		"skills": ["html5", "backbone.js"],
+		"status": "Done.",
+		"startTimestamp": "Jan 2013 GMT",
+		"finishTimestamp": "Feb 2013"
+	},
+	{
+		"id": "rr2",
+		"type": "fulltime",
+		"name": "Tree visualize",
+		"description": "UI tool for entering, managing, linking between entities. User determines type of every entity and fields it has. Link on request.",
+		"skills": ["html5", "ui", "backbone.js", "bootstrap", "d3 framework", "LESS"],
+		"status": "In progress.",
+		"startTimestamp": "Dec 2012"
+	},
+	{
+		"id": "rr1",
+		"type": "fulltime",
+		"name": "Map builder",
+		"description": "Created an UI tool to show UI controls over HUGE (16000x8000) PNG image to jump between different parts of a map. Link on request.",
+		"skills": ["html5", "ui", "backbone.js", "bootstrap", "leaflet", "LESS"],
+		"status": "Stopped after developed product prototype.",
+		"startTimestamp": "Nov 2012",
+		"finishTimestamp": "Dec 2012"
+	},
+	{
+		"id": "milkandhoney",
+		"type": "fulltime",
+		"name": "Shoe builder",
+		"href": "http://www.milkandhoneyshoes.com/design-it.html",
+		"description": "Develop your own shoe design using step-by-step wizard",
+		"skills": ["html5", "ui", "ux", "photoshop scripting", "prototype.js"],
+		"status": "Working",
+		"startTimestamp": "Jul 2012",
+		"finishTimestamp": "Oct 2012"
+	},
+	{
+		"id": "oolli2",
+		"type": "pet",
+		"name": "Oolli",
+		"description": "Collector's website - find stamps, request stamps information, get stamp value estimations. Highly-scalable project.",
+		"skills": ["javascript", "backbone.js", "bootstrap", "management", "LESS"],
+		"status": "Working",
+		"startTimestamp": "Jan 2011"
+	},
+	{
+		"id": "bugazza",
+		"type": "pet",
+		"name": "Bugazza team",
+		"href": "http://www.bugazza.com/",
+		"description": "Created a team and grew it from scratch.",
+		"skills": ["Hiring people", "firing people", "team building", "supporting office work", "finding customers"],
+		"status": "Great team. Enjoyed working with my friends every day.",
+		"startTimestamp": "May 2006",
+		"finishTimestamp": "Jun 2012"
+	},
+	{
+		"id": "emn",
+		"type": "pet",
+		"name": "Email-Me-Not",
+		"href": "https://www.email-me-not.com/",
+		"startTimestamp": "May 2010",
+		"description": "Stores account data for your online accounts, provides good unique passwords, strongly encrypts everything, provides unique email address for every account that redirects mail for your account.",
+		"status": "Launched, actively using myself. For public usage must spent more time on design and bug fixing",
+		"skills": ["Mail server usage", "javascript", "jQuery", "encryption in PHP"]
+	},
+	{
+		"id": "sb",
+		"type": "pet",
+		"name": "Service Book",
+		"description": "Low-end cell phones application to provide a local services directory. Order taxi, pizza or get latest football results using your feature phone.",
+		"skills": ["Entrepreneur skills", "pitching", "writing executive summary", "financial and business models", "javascript", "jQuery mobile"],
+		"status": "Closed. We had great idea and business advisory, almost had our first big customer. Decided to stop development because this is not our area of competence.",
+		"startTimestamp": "Feb 2011",
+		"finishTimestamp": "Apr 2011"
+	},
+	{
+		"id": "oolli",
+		"type": "pet",
+	    "name": "Social game",
+		"description": "Play using modern web-services like twitter or facebook. Do some social actions as a challenges.",
+		"skills": ["javascript", "jQuery", "oAuth", "FB Graph API", "gamification", "challenges", "entrepreneur", "elevator pitch", "executive summary"],
+		"status": "Dead - after all development we figured out that there is no market for this product.",
+		"startTimestamp": "Sep 2010",
+		"finishTimestamp": "Dec 2010"
+	},
+	{
+		"id": "appcelerator_docs",
+		"type": "fulltime",
+	    "name": "Appcelerator Titanium documentation system",
+		"href": "http://docs.appcelerator.com/",
+		"description": "Use <a href='https://github.com/senchalabs/jsduck'>JSDuck</a> to run documentation system for Titanium SDK.",
+		"skills": ["javascript", "css", "html", "JSDuck", "python", "ruby", "Ext.JS"],
+		"status": "Working.",
+		"startTimestamp": "Jan 2012",
+		"finishTimestamp": "Jun 2011"
+	},
+	{
+		"id": "appcelerator",
+		"type": "fulltime",
+	    "name": "Appcelerator Mobile Web SDK",
+		"href": "http://www.appcelerator.com",
+		"description": "With my team created alpha version of Mobile Web SDK to compile Titanium Mobile application into HTML5+JS+CSS",
+		"skills": ["javascript", "css", "html5", "titanium mobile", "management"],
+		"status": "Working.",
+		"startTimestamp": "Feb 2011",
+		"finishTimestamp": "Jun 2012"
+	},
+	{
+		"id": "funambol",
+		"type": "fulltime",
+	    "name": "Funambol Web Portal",
+		"href": "http://my.funambol.com",
+		"description": "Feature full web portal to work with data synchronized from your mobile devices. Used 6zap as a base.",
+		"skills": ["javascript", "css", "management", "scrum"],
+		"status": "Working.",
+		"startTimestamp": "Sep 2009",
+		"finishTimestamp": "Jan 2011"
+	},
+	{
+		"id": "6zap",
+		"type": "fulltime",
+	    "name": "Mail+Calendar+Files+Contacts+Groups",
+		"href": "http://www.6zap.com",
+		"description": "Enterprise level app with many interesting features.",
+		"skills": ["javascript", "css", "management"],
+		"status": "Aquired by Funambol and used as a base for creating Funambol Web Portal",
+		"startTimestamp": "Jan 2009",
+		"finishTimestamp": "Feb 2011"
+	},
+	{
+		"id": "zapatec_ajax_framework",
+		"type": "fulltime",
+	    "name": "Zapatec AJAX framework",
+		"href": "http://www.zapatec.com",
+		"description": "Commercial AJAX Framework + set of cool widgets. Since this time I didn't saw more cool grid and calendar widgets that ours.",
+		"skills": ["javascript", "css", "html", "management"],
+		"status": "Aquired by Funambol and used for creating Funambol Web Portal",
+		"startTimestamp": "May 2006",
+		"finishTimestamp": "Sep 2009"
+	}
+]

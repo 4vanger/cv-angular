@@ -1,4 +1,4 @@
-configFn = (routeProvider) ->
+configFn = (routeProvider, httpProvider) ->
 	routeProvider
 		.when '/',
 			templateUrl: 'partials/index.html'
@@ -6,11 +6,17 @@ configFn = (routeProvider) ->
 			controller: 'JobsCtrl'
 			templateUrl: 'partials/jobs.html'
 			reloadOnSearch: false
+		.when '/projects',
+			controller: 'ProjectsCtrl'
+			templateUrl: 'partials/projects.html'
+			reloadOnSearch: false
 		.otherwise
 			controller: 'NotFoundCtrl'
 			templateUrl: 'partials/404.html'
 
-configFn.$inject = ['$routeProvider']
+	httpProvider.responseInterceptors.push('ResponseConverter')
+
+configFn.$inject = ['$routeProvider', '$httpProvider']
 
 window.app = angular.module('CV', ['ngResource'])
 	.config(configFn)

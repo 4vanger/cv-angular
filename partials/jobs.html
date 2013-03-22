@@ -16,9 +16,9 @@
 			<small ng-show="job.href"><a href="{{job.href}}">{{job.href}}</a></small>
 		</h2>
 		<p class="time">
-			{{ job.startTimestamp | date:'MMMM yy' }}
+			{{ job.startTimestamp | date:'MMMM yyyy' }}
 			&mdash;
-			<span ng-show="job.finishTimestamp">{{job.finishTimestamp | date:'MMMM yy'}}</span>
+			<span ng-show="job.finishTimestamp">{{job.finishTimestamp | date:'MMMM yyyy'}}</span>
 			<span ng-hide="job.finishTimestamp"> current</span>
 
 			({{ job.startTimestamp | howLong:job.finishTimestamp }})

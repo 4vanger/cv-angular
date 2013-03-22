@@ -38,9 +38,9 @@ angular.module("CV").run(["$templateCache", function($templateCache) {
     "			<small ng-show=\"job.href\"><a href=\"{{job.href}}\">{{job.href}}</a></small>" +
     "		</h2>" +
     "		<p class=\"time\">" +
-    "			{{ job.startTimestamp | date:'MMMM yy' }}" +
+    "			{{ job.startTimestamp | date:'MMMM yyyy' }}" +
     "			&mdash;" +
-    "			<span ng-show=\"job.finishTimestamp\">{{job.finishTimestamp | date:'MMMM yy'}}</span>" +
+    "			<span ng-show=\"job.finishTimestamp\">{{job.finishTimestamp | date:'MMMM yyyy'}}</span>" +
     "			<span ng-hide=\"job.finishTimestamp\"> current</span>" +
     "" +
     "			({{ job.startTimestamp | howLong:job.finishTimestamp }})" +
@@ -51,6 +51,41 @@ angular.module("CV").run(["$templateCache", function($templateCache) {
     "			</li>" +
     "		</ul>" +
     "		<p ng-bind-html-unsafe=\"job.notes\"></p>" +
+    "	</li>" +
+    "</ul>" +
+    ""
+  );
+
+  $templateCache.put("partials/projects.html",
+    "<form class=\"form-inline\">" +
+    "	<div class=\"input-append\">" +
+    "		<input type=\"text\" ng-model=\"search.skill\" placeholder=\"type skill here\"/>" +
+    "		<span class=\"add-on clickable\" ng-click=\"search.skill = ''\"><i class=\"icon icon-trash\"></i></span>" +
+    "	</div>" +
+    "</form>" +
+    "" +
+    "<ul class=\"projects\">" +
+    "	<li class=\"project\" ng-repeat=\"project in projects | filter:{skills:search.skill}| orderBy:'-startTimestamp'\">" +
+    "		<h2 class=\"position\" ng-show=\"project.href\">" +
+    "			<a href=\"{{project.href}}\">{{project.name}}</a>" +
+    "		</h2>" +
+    "		<h2 class=\"position\" ng-hide=\"project.href\">" +
+    "			{{project.name}}" +
+    "		</h2>" +
+    "		<p class=\"time\">" +
+    "			{{ project.startTimestamp | date:'MMMM yyyy' }}" +
+    "			&mdash;" +
+    "			<span ng-show=\"project.finishTimestamp\">{{project.finishTimestamp | date:'MMMM yyyy'}}</span>" +
+    "			<span ng-hide=\"project.finishTimestamp\"> current</span>" +
+    "" +
+    "			({{ project.startTimestamp | howLong:project.finishTimestamp }})" +
+    "		</p>" +
+    "		<ul class=\"skills\">" +
+    "			<li class=\"skill\" ng-repeat=\"skill in project.skills\">" +
+    "				<a class=\"label important\" ng-click=\"search.skill = skill\">{{skill}}</a>" +
+    "			</li>" +
+    "		</ul>" +
+    "		<p ng-bind-html-unsafe=\"project.description\"></p>" +
     "	</li>" +
     "</ul>" +
     ""

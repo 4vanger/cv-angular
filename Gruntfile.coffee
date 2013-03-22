@@ -89,7 +89,7 @@ module.exports = (grunt) ->
 				files: ['static/**/*']
 				tasks: ['copy']
 			template:
-				files: ['partials/**/*']
+				files: ['partials/**/*.html']
 				tasks: ['ngtemplates', 'concat:app']
 
 	)
