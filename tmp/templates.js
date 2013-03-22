@@ -19,40 +19,68 @@ angular.module("CV").run(["$templateCache", function($templateCache) {
     ""
   );
 
+  $templateCache.put("partials/job.html",
+    "<li class=\"job\">" +
+    "	<h2 class=\"position\">" +
+    "		{{job.position}}" +
+    "		<span ng-show=\"job.company\">at {{job.company}}</span>" +
+    "		<small ng-show=\"job.href\"><a href=\"{{job.href}}\">{{job.href}}</a></small>" +
+    "	</h2>" +
+    "	<p class=\"time\">" +
+    "		{{ job.startTimestamp | date:'MMMM yyyy' }}" +
+    "		&mdash;" +
+    "		<span ng-show=\"job.finishTimestamp\">{{job.finishTimestamp | date:'MMMM yyyy'}}</span>" +
+    "		<span ng-hide=\"job.finishTimestamp\"> current</span>" +
+    "" +
+    "		({{ job.startTimestamp | howLong:job.finishTimestamp }})" +
+    "	</p>" +
+    "	<ul class=\"skills\">" +
+    "		<li class=\"skill\" ng-repeat=\"skill in job.skills\">" +
+    "			<a class=\"label important\" ng-click=\"search.skill = skill\">{{skill}}</a>" +
+    "		</li>" +
+    "	</ul>" +
+    "	<p ng-bind-html-unsafe=\"job.notes\"></p>" +
+    "</li>" +
+    ""
+  );
+
   $templateCache.put("partials/jobs.html",
     "<form class=\"form-inline\">" +
-    "	<label for=\"searchSkill\">" +
-    "		Search by skill:" +
-    "	</label>" +
     "	<div class=\"input-append\">" +
-    "		<input id=\"searchSkill\" type=\"text\" ng-model=\"search.skill\" placeholder=\"type skill here\"/>" +
+    "		<input type=\"text\" ng-model=\"search.skill\" placeholder=\"type skill here\"/>" +
     "		<span class=\"add-on clickable\" ng-click=\"search.skill = ''\"><i class=\"icon icon-trash\"></i></span>" +
     "	</div>" +
     "</form>" +
     "" +
     "<ul class=\"jobs\">" +
-    "	<li class=\"job\" ng-repeat=\"job in jobs | filter:{skills:search.skill}| orderBy:'-finishTimestamp'\">" +
-    "		<h2 class=\"position\">" +
-    "			{{job.position}}" +
-    "			<span ng-show=\"job.company\">at {{job.company}}</span>" +
-    "			<small ng-show=\"job.href\"><a href=\"{{job.href}}\">{{job.href}}</a></small>" +
-    "		</h2>" +
-    "		<p class=\"time\">" +
-    "			{{ job.startTimestamp | date:'MMMM yyyy' }}" +
-    "			&mdash;" +
-    "			<span ng-show=\"job.finishTimestamp\">{{job.finishTimestamp | date:'MMMM yyyy'}}</span>" +
-    "			<span ng-hide=\"job.finishTimestamp\"> current</span>" +
-    "" +
-    "			({{ job.startTimestamp | howLong:job.finishTimestamp }})" +
-    "		</p>" +
-    "		<ul class=\"skills\">" +
-    "			<li class=\"skill\" ng-repeat=\"skill in job.skills\">" +
-    "				<a class=\"label important\" ng-click=\"search.skill = skill\">{{skill}}</a>" +
-    "			</li>" +
-    "		</ul>" +
-    "		<p ng-bind-html-unsafe=\"job.notes\"></p>" +
-    "	</li>" +
+    "	<job ng-repeat=\"job in jobs | filter:{skills:search.skill}| orderBy:'-finishTimestamp'\" data=\"job\" search=\"search\"></job>" +
     "</ul>" +
+    ""
+  );
+
+  $templateCache.put("partials/project.html",
+    "<li class=\"project\">" +
+    "	<h2 class=\"position\" ng-show=\"project.href\">" +
+    "		<a href=\"{{project.href}}\">{{project.name}}</a>" +
+    "	</h2>" +
+    "	<h2 class=\"position\" ng-hide=\"project.href\">" +
+    "		{{project.name}}" +
+    "	</h2>" +
+    "	<p class=\"time\">" +
+    "		{{ project.startTimestamp | date:'MMMM yyyy' }}" +
+    "		&mdash;" +
+    "		<span ng-show=\"project.finishTimestamp\">{{project.finishTimestamp | date:'MMMM yyyy'}}</span>" +
+    "		<span ng-hide=\"project.finishTimestamp\"> current</span>" +
+    "" +
+    "		({{ project.startTimestamp | howLong:project.finishTimestamp }})" +
+    "	</p>" +
+    "	<ul class=\"skills\">" +
+    "		<li class=\"skill\" ng-repeat=\"skill in project.skills\">" +
+    "			<a class=\"label important\" ng-click=\"search.skill = skill\">{{skill}}</a>" +
+    "		</li>" +
+    "	</ul>" +
+    "	<p ng-bind-html-unsafe=\"project.description\"></p>" +
+    "</li>" +
     ""
   );
 
@@ -65,28 +93,7 @@ angular.module("CV").run(["$templateCache", function($templateCache) {
     "</form>" +
     "" +
     "<ul class=\"projects\">" +
-    "	<li class=\"project\" ng-repeat=\"project in projects | filter:{skills:search.skill}| orderBy:'-startTimestamp'\">" +
-    "		<h2 class=\"position\" ng-show=\"project.href\">" +
-    "			<a href=\"{{project.href}}\">{{project.name}}</a>" +
-    "		</h2>" +
-    "		<h2 class=\"position\" ng-hide=\"project.href\">" +
-    "			{{project.name}}" +
-    "		</h2>" +
-    "		<p class=\"time\">" +
-    "			{{ project.startTimestamp | date:'MMMM yyyy' }}" +
-    "			&mdash;" +
-    "			<span ng-show=\"project.finishTimestamp\">{{project.finishTimestamp | date:'MMMM yyyy'}}</span>" +
-    "			<span ng-hide=\"project.finishTimestamp\"> current</span>" +
-    "" +
-    "			({{ project.startTimestamp | howLong:project.finishTimestamp }})" +
-    "		</p>" +
-    "		<ul class=\"skills\">" +
-    "			<li class=\"skill\" ng-repeat=\"skill in project.skills\">" +
-    "				<a class=\"label important\" ng-click=\"search.skill = skill\">{{skill}}</a>" +
-    "			</li>" +
-    "		</ul>" +
-    "		<p ng-bind-html-unsafe=\"project.description\"></p>" +
-    "	</li>" +
+    "	<project ng-repeat=\"project in projects | filter:{skills:search.skill}| orderBy:'-startTimestamp'\" data=\"project\" search=\"search\"></project>" +
     "</ul>" +
     ""
   );

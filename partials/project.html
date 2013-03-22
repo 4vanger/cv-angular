@@ -1,0 +1,22 @@
+<li class="project">
+	<h2 class="position" ng-show="project.href">
+		<a href="{{project.href}}">{{project.name}}</a>
+	</h2>
+	<h2 class="position" ng-hide="project.href">
+		{{project.name}}
+	</h2>
+	<p class="time">
+		{{ project.startTimestamp | date:'MMMM yyyy' }}
+		&mdash;
+		<span ng-show="project.finishTimestamp">{{project.finishTimestamp | date:'MMMM yyyy'}}</span>
+		<span ng-hide="project.finishTimestamp"> current</span>
+
+		({{ project.startTimestamp | howLong:project.finishTimestamp }})
+	</p>
+	<ul class="skills">
+		<li class="skill" ng-repeat="skill in project.skills">
+			<a class="label important" ng-click="search.skill = skill">{{skill}}</a>
+		</li>
+	</ul>
+	<p ng-bind-html-unsafe="project.description"></p>
+</li>

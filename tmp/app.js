@@ -27,6 +27,38 @@
 
 (function() {
 
+  angular.module('CV').directive('job', function() {
+    return {
+      restrict: 'E',
+      scope: {
+        job: '=data',
+        search: '='
+      },
+      templateUrl: 'partials/job.html',
+      replace: true
+    };
+  });
+
+}).call(this);
+
+(function() {
+
+  angular.module('CV').directive('project', function() {
+    return {
+      restrict: 'E',
+      scope: {
+        project: '=data',
+        search: '='
+      },
+      templateUrl: 'partials/project.html',
+      replace: true
+    };
+  });
+
+}).call(this);
+
+(function() {
+
   window.JobsCtrl = function(scope, jobs, win, routeParams, location) {
     scope.search = {
       skill: routeParams.skill || ''
