@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67fef632-b938-4b02-90ae-217ba57c8f00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/education.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/education.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/api/education.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services/educations.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.coffee" afterPath="$PROJECT_DIR$/js/app.coffee" />
+    <list default="true" id="67fef632-b938-4b02-90ae-217ba57c8f00" name="Default" comment="education">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/index.html" afterPath="$PROJECT_DIR$/partials/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/index.html" afterPath="$PROJECT_DIR$/static/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/interceptor.coffee" afterPath="$PROJECT_DIR$/js/services/interceptor.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/job.html" afterPath="$PROJECT_DIR$/partials/job.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/jobs.html" afterPath="$PROJECT_DIR$/partials/jobs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/project.html" afterPath="$PROJECT_DIR$/partials/project.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cv-angular.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363964938718" ignored="false" />
-    <file path="/index.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363966132990" ignored="false" />
+    <file path="/Dummy.txt" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363970711726" ignored="false" />
+    <file path="/index.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363975773247" ignored="false" />
     <file path="/app.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363966100814" ignored="false" />
     <file path="/.gitignore" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363867701284" ignored="false" />
     <file path="/jobs.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363881053140" ignored="false" />
-    <file path="/jobs.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363963574467" ignored="false" />
+    <file path="/jobs.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363967732859" ignored="false" />
     <file path="/index.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363868354343" ignored="false" />
     <file path="/how-long.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363881446412" ignored="false" />
-    <file path="/main.less" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363965806943" ignored="false" />
+    <file path="/main.less" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363975576804" ignored="false" />
     <file path="/projects.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363963518117" ignored="false" />
-    <file path="/projects.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363963663213" ignored="false" />
+    <file path="/projects.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363967696635" ignored="false" />
     <file path="/projects.json" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363949756636" ignored="false" />
     <file path="/interceptop.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363936720765" ignored="false" />
     <file path="/interceptor.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363966225661" ignored="false" />
@@ -43,6 +38,9 @@
     <file path="/education.json" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363966299879" ignored="false" />
     <file path="/education.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363966372912" ignored="false" />
     <file path="/education.coffee" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363966071898" ignored="false" />
+    <file path="/contacts.html" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363970632332" ignored="false" />
+    <file path="/dummy.xml" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363973205588" ignored="false" />
+    <file path="/README.md" changelist="67fef632-b938-4b02-90ae-217ba57c8f00" time="1363971461422" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,46 +60,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="education.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/api/education.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="40" selection-start="527" selection-end="527" vertical-scroll-proportion="-11.769231">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="education.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/education.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="48" selection-start="600" selection-end="600" vertical-scroll-proportion="-9.807693">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="education.coffee" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/controllers/education.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="39" selection-start="124" selection-end="124" vertical-scroll-proportion="0.05978898">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+            <state line="25" column="28" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/project.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partials/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="138" selection-end="138" vertical-scroll-proportion="-2.6153846">
+            <state line="21" column="14" selection-start="908" selection-end="908" vertical-scroll-proportion="0.43857494">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/main.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="18" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/projects.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="48" selection-start="94" selection-end="94" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobs.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/jobs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="63" selection-start="96" selection-end="96" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="70" selection-start="941" selection-end="941" vertical-scroll-proportion="-16.346153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="51" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,22 +141,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/directives/skills.coffee" />
-        <option value="$PROJECT_DIR$/js/controllers/projects.coffee" />
-        <option value="$PROJECT_DIR$/partials/jobs.html" />
-        <option value="$PROJECT_DIR$/partials/projects.html" />
-        <option value="$PROJECT_DIR$/static/api/jobs.json" />
         <option value="$PROJECT_DIR$/static/api/projects.json" />
         <option value="$PROJECT_DIR$/partials/job.html" />
         <option value="$PROJECT_DIR$/partials/project.html" />
-        <option value="$PROJECT_DIR$/less/main.less" />
         <option value="$PROJECT_DIR$/js/services/educations.coffee" />
         <option value="$PROJECT_DIR$/js/controllers/education.coffee" />
-        <option value="$PROJECT_DIR$/js/app.coffee" />
-        <option value="$PROJECT_DIR$/static/index.html" />
         <option value="$PROJECT_DIR$/js/services/interceptor.coffee" />
         <option value="$PROJECT_DIR$/static/api/education.json" />
         <option value="$PROJECT_DIR$/partials/education.html" />
+        <option value="$PROJECT_DIR$/partials/projects.html" />
+        <option value="$PROJECT_DIR$/partials/contacts.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/js/app.coffee" />
+        <option value="$PROJECT_DIR$/static/index.html" />
+        <option value="$PROJECT_DIR$/partials/jobs.html" />
+        <option value="$PROJECT_DIR$/less/main.less" />
+        <option value="$PROJECT_DIR$/partials/index.html" />
       </list>
     </option>
   </component>
@@ -205,6 +221,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cv-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cv-angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,7 +446,19 @@
       <created>1363964942294</created>
       <updated>1363964942294</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="education">
+      <created>1363966402452</created>
+      <updated>1363966402452</updated>
+    </task>
+    <task id="LOCAL-00013" summary="wording improved">
+      <created>1363967980946</created>
+      <updated>1363967980946</updated>
+    </task>
+    <task id="LOCAL-00014" summary="contacts">
+      <created>1363970716123</created>
+      <updated>1363970716123</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -480,7 +526,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove &quot;Timestamp&quot; string" />
+    <option name="LAST_COMMIT_MESSAGE" value="contacts" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -505,46 +551,14 @@
     <MESSAGE value="move skill into separate directive. sorting skills" />
     <MESSAGE value="split skills into directive&#10;add &quot;reset search&quot; feature" />
     <MESSAGE value="remove &quot;Timestamp&quot; string" />
+    <MESSAGE value="education" />
+    <MESSAGE value="wording improved" />
+    <MESSAGE value="contacts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/partials/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="791" selection-end="791" vertical-scroll-proportion="-12.423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/api/projects.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="234" selection-end="237" vertical-scroll-proportion="-0.97208124">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/api/jobs.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="24" selection-start="4420" selection-end="4420" vertical-scroll-proportion="2.450852">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/jobs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="74" selection-start="0" selection-end="524" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/projects.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="149" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/services/educations.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
@@ -566,23 +580,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="666" selection-end="666" vertical-scroll-proportion="0.41112456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/services/interceptor.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="81" selection-start="331" selection-end="331" vertical-scroll-proportion="0.15943728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -608,16 +608,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/main.less">
+    <entry file="file://$PROJECT_DIR$/js/controllers/education.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="5" selection-start="595" selection-end="604" vertical-scroll-proportion="0.7971864">
+        <state line="3" column="39" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/education.coffee">
+    <entry file="file://$PROJECT_DIR$/partials/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="124" selection-end="124" vertical-scroll-proportion="0.05978898">
+        <state line="3" column="6" selection-start="328" selection-end="328" vertical-scroll-proportion="0.061668683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="51" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="28" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="70" selection-start="941" selection-end="941" vertical-scroll-proportion="-16.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/jobs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="63" selection-start="96" selection-end="96" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="48" selection-start="94" selection-end="94" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="18" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="14" selection-start="908" selection-end="908" vertical-scroll-proportion="0.43857494">
           <folding />
         </state>
       </provider>

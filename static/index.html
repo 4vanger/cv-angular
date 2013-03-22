@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js" ng-app="CV">
+<!--
+	Hi. Thanks for taking a look at my code - as for me - code is best CV for developer.
+	This is compressed&minified app version - check out sources at https://github.com/4vanger/cv-angular
+-->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -14,11 +18,12 @@
 	<div class="navbar-inner navbar-fixed-top">
 		<a class="brand" href="#/">Andrew Kulinich - Front-end architect</a>
 		<ul class="nav">
-			<li><a href="#/jobs">My work experience</a></li>
-			<li><a href="#/projects">My projects</a></li>
+			<li><a href="#/jobs">Work experience</a></li>
+			<li><a href="#/projects">Projects</a></li>
 			<li><a href="#/education">Education</a></li>
 		</ul>
 		<ul class="nav pull-right">
+			<li><a href="https://github.com/4vanger/cv-angular">CV source code</a></li>
 			<li><a href="#/contacts">Contact me</a></li>
 		</ul>
 	</div>
@@ -28,5 +33,19 @@
 </div>
 <script src="/vendor.js"></script>
 <script src="/app.js"></script>
+
+<script type='text/javascript'>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-149419-2']);
+	_gaq.push(['_setDomainName', '.4vanger.com']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
 </body>
 </html>
