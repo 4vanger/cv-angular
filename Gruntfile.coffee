@@ -7,6 +7,7 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks 'grunt-contrib-coffee'
 	grunt.loadNpmTasks 'grunt-contrib-less'
 	grunt.loadNpmTasks 'grunt-angular-templates'
+	grunt.loadNpmTasks 'grunt-contrib-clean'
 
 	grunt.initConfig(
 		copy:
@@ -15,6 +16,16 @@ module.exports = (grunt) ->
 					expand: true
 					cwd: 'static/'
 					src: ['**'],
+					dest: 'dist/'
+				]
+			maps:
+				files: [
+					expand: true
+					cwd: 'tmp/'
+					src: [
+						'app.src.coffee'
+						'app.map'
+					],
 					dest: 'dist/'
 				]
 		concat:
@@ -37,6 +48,8 @@ module.exports = (grunt) ->
 				dest: 'dist/app.js'
 		coffee:
 			assets:
+				options:
+					sourceMap: true
 				dest: 'tmp/app.js'
 				src: [
 					'js/app.coffee'
@@ -66,13 +79,14 @@ module.exports = (grunt) ->
 				files:
 					'dist/vendor.js': 'dist/vendor.js'
 					'dist/app.js': 'dist/app.js'
+		clean: ['tmp/']
 		watch:
 			js:
 				files: [
 					'js/**/**/*.coffee'
 					'js/**/*.js'
 				]
-				tasks: ['coffee', 'concat']
+				tasks: ['coffee', 'concat:app', 'copy:maps']
 			less:
 				files: ['less/**/*']
 				tasks: ['less:dev']
@@ -84,5 +98,5 @@ module.exports = (grunt) ->
 				tasks: ['ngtemplates', 'concat:app']
 
 	)
-	grunt.registerTask('default', ['copy', 'coffee', 'ngtemplates', 'concat', 'less:dev'])
-	grunt.registerTask('production', ['copy', 'coffee', 'ngtemplates', 'concat', 'less:production', 'uglify'])
+	grunt.registerTask('default', ['copy:static', 'coffee', 'ngtemplates', 'concat', 'copy:maps', 'less:dev'])
+	grunt.registerTask('production', ['copy:static', 'coffee', 'ngtemplates', 'concat', 'less:production', 'uglify', 'clean'])
