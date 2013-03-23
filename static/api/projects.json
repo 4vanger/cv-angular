@@ -111,7 +111,7 @@
 			"technical": ["javascript", "css", "html", "JSDuck", "python", "ruby", "Ext.JS"]
 		},
 		"start": "1 Jan 2012",
-		"finish": "1 Jun 2011"
+		"finish": "1 Jun 2012"
 	},
 	{
 		"id": "appcelerator",
@@ -123,8 +123,8 @@
 			"technical": ["javascript", "css", "html5", "titanium mobile"],
 			"managerial": ["team leading", "project management"]
 		},
-		"start": "1 May 2011",
-		"finish": "1 Jul 2012"
+		"start": "1 Apr 2011",
+		"finish": "1 Jun 2011"
 	},
 	{
 		"id": "funambol",

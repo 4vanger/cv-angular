@@ -3,20 +3,12 @@
 	<li ng-repeat="education in educations" class="education">
 		<div ng-show="education.type == 'education'">
 			<h2 class="title">{{education.name}}</h2>
-			<p class="time">
-				{{ education.start | date:'yyyy'}}
-				&mdash;
-				<span ng-show="education.finish">{{education.finish | date:'yyyy'}}</span>
-				<span ng-hide="education.finish"> current</span>
-			</p>
+			<time-range start="education.start" finish="education.finish" date-format="yyyy" show-title="false"></time-range>
 			<p ng-bind-html-unsafe="education.degree"></p>
 		</div>
 		<div ng-show="education.type == 'certification'">
 			<h2 class="title">{{education.name}}</h2>
-			<p class="time">
-				{{ education.start | date:'MMMM yyyy'}}
-				<span ng-show="education.finish">&mdash; {{education.finish | date:'MMMM yyyy'}}</span>
-			</p>
+			<time-range start="education.start" finish="education.finish" show-current="false" show-title="false"></time-range>
 			<p ng-bind-html-unsafe="education.notes"></p>
 		</div>
 	</li>

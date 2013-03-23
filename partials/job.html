@@ -4,14 +4,7 @@
 		<span ng-show="job.company">at {{job.company}}</span>
 		<small ng-show="job.href"><a href="{{job.href}}">{{job.href}}</a></small>
 	</h2>
-	<p class="time">
-		{{ job.start | date:'MMMM yyyy' }}
-		&mdash;
-		<span ng-show="job.finish">{{job.finish | date:'MMMM yyyy'}}</span>
-		<span ng-hide="job.finish"> current</span>
-
-		({{ job.start | howLong:job.finish}})
-	</p>
+	<time-range start="job.start" finish="job.finish"></time-range>
 	<skills data="job.skills" search="search"></skills>
 	<p ng-bind-html-unsafe="job.notes"></p>
 </li>

@@ -5,14 +5,7 @@
 	<h2 class="title" ng-hide="project.href">
 		{{project.name}}
 	</h2>
-	<p class="time">
-		{{ project.start | date:'MMMM yyyy' }}
-		&mdash;
-		<span ng-show="project.finish">{{project.finish | date:'MMMM yyyy'}}</span>
-		<span ng-hide="project.finish"> current</span>
-
-		({{ project.start | howLong:project.finish }})
-	</p>
+	<time-range start="project.start" finish="project.finish"></time-range>
 	<skills data="project.skills" search="search"></skills>
 	<p ng-bind-html-unsafe="project.description"></p>
 </li>

@@ -1,0 +1,7 @@
+<p title="{{title}}">
+	<span class="time">
+		{{ start | date:'MMMM yyyy' }}
+		<span ng-show="finish">&mdash; {{finish | date:dateFormat}}</span>
+		<span ng-hide="finish || !showCurrent">&mdash; current</span>
+	</span>
+</p>

@@ -4,20 +4,20 @@
 		<p class="lead pull-left">Cool projects that I've developed</p>
 		<div class="input-append pull-right">
 			<input type="text" ng-model="search.skill" placeholder="type skill here"/>
-			<span class="add-on clickable" ng-click="resetSearch()"><i class="icon icon-trash"></i></span>
+			<span class="add-on clickable" ng-click="resetSearch()" title="Reset search terms"><i class="icon icon-trash"></i></span>
 		</div>
 	</form>
-	<form class="form-inline clearfix">
-		<label class="checkbox">
+	<form class="form-inline clearfix strip-bottom search-criterias">
+		<label class="checkbox pull-right">
 			<input type="checkbox" ng-model="search.fulltimeProjects"> Full-time projects
 		</label>
-		<label class="checkbox">
+		<label class="checkbox pull-right">
 			<input type="checkbox" ng-model="search.petProjects"> Pet projects
 		</label>
 	</form>
 
 	<ul class="projects">
-		<project ng-repeat="project in filteredProjects = projects | filter:{skills:search.skill} | filter:filterByType | orderBy:'-startTimestamp'" data="project" search="search"></project>
+		<project ng-repeat="project in filteredProjects = projects | filter:{skills:search.skill} | filter:filterByType | orderBy:'-start'" data="project" search="search"></project>
 	</ul>
 	<div ng-hide="filteredProjects">
 		Nothing found. <a ng-click="resetSearch()">Reset search criteries.</a>
