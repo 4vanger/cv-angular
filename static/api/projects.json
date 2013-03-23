@@ -7,8 +7,8 @@
 		"skills": {
 			"technical": ["html5", "backbone.js"]
 		},
-		"start": "Jan 2013 GMT",
-		"finish": "Feb 2013"
+		"start": "1 Jan 2013 GMT",
+		"finish": "1 Feb 2013"
 	},
 	{
 		"id": "rr2",
@@ -18,7 +18,7 @@
 		"skills": {
 			"technical": ["html5", "ui", "backbone.js", "bootstrap", "d3 framework", "less"]
 		},
-		"start": "Dec 2012"
+		"start": "1 Dec 2012"
 	},
 	{
 		"id": "rr1",
@@ -28,8 +28,8 @@
 		"skills": {
 			"technical": ["html5", "ui", "backbone.js", "bootstrap", "leaflet.js", "less"]
 		},
-		"start": "Nov 2012",
-		"finish": "Dec 2012"
+		"start": "1 Nov 2012",
+		"finish": "1 Dec 2012"
 	},
 	{
 		"id": "milkandhoney",
@@ -40,8 +40,8 @@
 		"skills": {
 			"technical": ["html5", "ui", "ux", "photoshop scripting", "prototype.js"]
 		},
-		"start": "Jul 2012",
-		"finish": "Oct 2012"
+		"start": "1 Jul 2012",
+		"finish": "1 Oct 2012"
 	},
 	{
 		"id": "oolli2",
@@ -52,7 +52,7 @@
 			"technical": ["javascript", "backbone.js", "bootstrap", "less"],
 			"managerial": ["entrepreneur skills", "executive summary", "product development"]
 		},
-		"start": "Jan 2011"
+		"start": "1 Jan 2011"
 	},
 	{
 		"id": "bugazza",
@@ -63,8 +63,8 @@
 		"skills": {
 			"managerial": ["hiring great people", "team building", "office work administration", "finding customers"]
 		},
-		"start": "May 2006",
-		"finish": "Jun 2012"
+		"start": "1 May 2006",
+		"finish": "1 Jun 2012"
 	},
 	{
 		"id": "emn",
@@ -86,8 +86,8 @@
 			"technical": ["javascript", "jQuery mobile"],
 			"managerial": ["entrepreneur skills", "pitching", "writing executive summary", "financial and business models"]
 		},
-		"start": "Feb 2011",
-		"finish": "Apr 2011"
+		"start": "1 Feb 2011",
+		"finish": "1 Apr 2011"
 	},
 	{
 		"id": "oolli",
@@ -98,8 +98,8 @@
 			"technical": ["javascript", "jQuery", "oAuth", "FB Graph API"],
 			"managerial": ["gamification", "entrepreneur skills", "elevator pitch", "executive summary"]
 		},
-		"start": "Sep 2010",
-		"finish": "Dec 2010"
+		"start": "1 Sep 2010",
+		"finish": "1 Dec 2010"
 	},
 	{
 		"id": "appcelerator_docs",
@@ -110,8 +110,8 @@
 		"skills": {
 			"technical": ["javascript", "css", "html", "JSDuck", "python", "ruby", "Ext.JS"]
 		},
-		"start": "Jan 2012",
-		"finish": "Jun 2011"
+		"start": "1 Jan 2012",
+		"finish": "1 Jun 2011"
 	},
 	{
 		"id": "appcelerator",
@@ -123,8 +123,8 @@
 			"technical": ["javascript", "css", "html5", "titanium mobile"],
 			"managerial": ["team leading", "project management"]
 		},
-		"start": "May 2011",
-		"finish": "Jul 2012"
+		"start": "1 May 2011",
+		"finish": "1 Jul 2012"
 	},
 	{
 		"id": "funambol",
@@ -136,8 +136,8 @@
 			"technical": ["javascript", "css", "html"],
 			"managerial": ["team leading", "scrum"]
 		},
-		"start": "Sep 2009",
-		"finish": "Jan 2011"
+		"start": "1 Sep 2009",
+		"finish": "1 Jan 2011"
 	},
 	{
 		"id": "6zap",
@@ -149,8 +149,8 @@
 			"technical": ["javascript", "css", "html", "zapatec framework", "architecture"],
 			"managerial": ["team leading", "project management"]
 		},
-		"start": "Jan 2009",
-		"finish": "Feb 2011"
+		"start": "1 Jan 2009",
+		"finish": "1 Feb 2011"
 	},
 	{
 		"id": "zapatec_ajax_framework",
@@ -162,7 +162,7 @@
 			"technical": ["javascript", "css", "html", "zapatec framework", "architecture"],
 			"managerial": ["team leading", "project management"]
 		},
-		"start": "May 2006",
-		"finish": "Sep 2009"
+		"start": "1 May 2006",
+		"finish": "1 Sep 2009"
 	}
 ]

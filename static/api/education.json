@@ -3,20 +3,20 @@
 		"type": "education",
 		"name": "Chernivci National 'Juriy Fedkovyc' University",
 		"degree": "BS on Applied Maths",
-		"start": "Sep 2000",
-		"finish": "Jun 2004"
+		"start": "1 Sep 2000",
+		"finish": "1 Jun 2004"
 	},
 	{
 		"type": "education",
 		"name": "Chernivci National 'Juriy Fedkovyc' University",
 		"degree": "<a href='http://en.wikipedia.org/wiki/Specialist_degree'>Specialist degree</a> on CS",
-		"start": "Sep 2004",
-		"finish": "Jun 2005"
+		"start": "1 Sep 2004",
+		"finish": "1 Jun 2005"
 	},
 	{
 		"type": "certification",
 		"name": "Titanium Certified Application Developer",
 		"notes": "Appcelerator, License 14C9-0A15-1B20-403D",
-		"start": "Jun 2011"
+		"start": "1 Jun 2011"
 	}
 ]

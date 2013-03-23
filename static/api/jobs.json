@@ -9,8 +9,8 @@
 			"technical" : ["ruby", "html", "javascript", "postgresql"],
 			"managerial" : ["project management"]
 		},
-		"start": "Feb 2003",
-		"finish": "Oct 2004"
+		"start": "1 Feb 2003",
+		"finish": "1 Oct 2004"
 	},
 	{
 		"id": "uwiss",
@@ -21,8 +21,8 @@
 		"skills": {
 			"technical" : ["java", "j2ee", "jsp", "postgresql", "sql", "javascript"]
 		},
-		"start": "Oct 2004",
-		"finish": "May 2006"
+		"start": "1 Oct 2004",
+		"finish": "1 May 2006"
 	},
 	{
 		"id": "rac",
@@ -33,8 +33,8 @@
 			"technical" : ["javascript", "html", "css"],
 			"managerial" : ["lack of sleep", "selling myself"]
 		},
-		"start": "Jun 2005",
-		"finish": "May 2005"
+		"start": "1 Jun 2005",
+		"finish": "1 May 2006"
 	},
 	{
 		"id": "zapatec",
@@ -46,8 +46,8 @@
 			"technical" : ["javascript", "html", "css", "dhtml", "web2.0"],
 			"managerial" : ["office work administration", "team leading", "team building", "project management"]
 		},
-		"start": "May 2006",
-		"finish": "Nov 2008"
+		"start": "1 May 2006",
+		"finish": "1 Nov 2008"
 	},
 	{
 		"id": "funambol",
@@ -59,8 +59,8 @@
 			"technical" : ["javascript", "mobile", "web2.0", "html", "css", "ux"],
 			"managerial" : ["office work administration", "team leading", "team building"]
 		},
-		"start": "Nov 2008",
-		"finish": "Jan 2011"
+		"start": "1 Nov 2008",
+		"finish": "1 Jan 2011"
 	},
 	{
 		"id": "appcelerator",
@@ -72,8 +72,8 @@
 			"technical" : ["javascript", "mobile", "html5", "ux"],
 			"managerial" : ["office work administration", "team leading", "team building"]
 		},
-		"start": "Feb 2011",
-		"finish": "Jun 2012"
+		"start": "1 Feb 2011",
+		"finish": "1 Jun 2012"
 		
 	},
 	{
@@ -85,8 +85,8 @@
 		"skills": {
 			"technical" : ["html5", "ui", "ux", "photoshop scripting", "prototype.js"]
 		},
-		"start": "Jul 2012",
-		"finish": "Nov 2012"
+		"start": "1 Jul 2012",
+		"finish": "1 Nov 2012"
 	},
 	{
 		"id": "zabava",
@@ -96,8 +96,8 @@
 		"skills": {
 			"technical" : ["html5", "architecture", "canvas", "animations", "web sockets"]
 		},
-		"start": "Sep 2012",
-		"finish": "Nov 2012"
+		"start": "1 Sep 2012",
+		"finish": "1 Nov 2012"
 	},
 	{
 		"id": "rr",
@@ -108,6 +108,6 @@
 		"skills": {
 			"technical" : ["html5", "architecture", "d3 framework", "css", "ui", "ux", "backbone.js", "jquery", "html5 apis", "angular.js"]
 		},
-		"start": "Nov 2012"
+		"start": "1 Nov 2012"
 	}
 ]
