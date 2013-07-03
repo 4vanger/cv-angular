@@ -1,5 +1,27 @@
 [
 	{
+		"id": "angular-l10n",
+		"type": "pet",
+		"name": "angular-l10n",
+		"href": "https://github.com/4vanger/angular-l10n",
+		"description": "Small and powerful opensource l10n library for angular.js",
+		"skills": {
+			"technical": ["angular", "opensource", "bootstrap", "github"]
+		},
+		"start": "24 Mar 2013"
+	},
+	{
+		"id": "js3d",
+		"type": "fulltime",
+		"name": "Displaying 3DS models in a browser",
+		"description": "Load 3D model in a browser and display it using WebGL. Use mouse/keyboard to rotate an object.",
+		"skills": {
+			"technical": ["html5", "angular.js", "three.js", "3d", "webgl"]
+		},
+		"start": "1 May 2013",
+		"finish": "1 June 2013"
+	},
+	{
 		"id": "rr3",
 		"type": "fulltime",
 		"name": "Web app",
@@ -7,7 +29,7 @@
 		"skills": {
 			"technical": ["html5", "backbone.js"]
 		},
-		"start": "1 Jan 2013 GMT",
+		"start": "1 Jan 2013",
 		"finish": "1 Feb 2013"
 	},
 	{
