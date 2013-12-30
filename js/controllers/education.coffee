@@ -1,4 +1,3 @@
-window.EducationCtrl = (scope, educations)->
-	scope.educations = educations.query()
-
-window.EducationCtrl.$inject = ['$scope', 'Educations']
+window.app.controller 'EducationCtrl', ['$scope', 'Educations', ($scope, educations)->
+	$scope.educations = educations.query()
+]
