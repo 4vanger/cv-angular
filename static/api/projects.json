@@ -6,7 +6,7 @@
 		"href": "https://github.com/4vanger/angular-l10n",
 		"description": "Small and powerful opensource l10n library for angular.js",
 		"skills": {
-			"technical": ["angular", "opensource", "bootstrap", "github"]
+			"technical": ["angular", "opensource", "bootstrap", "github", "grunt"]
 		},
 		"start": "24 Mar 2013"
 	},
@@ -22,12 +22,23 @@
 		"finish": "1 June 2013"
 	},
 	{
+		"id": "rr4",
+		"type": "fulltime",
+		"name": "Clinique",
+		"description": "Walk into any shop where Clinique's stand is present and you will see iPad with a quiz that helps you determine your skintype and find products that suits best.",
+		"skills": {
+			"technical": ["html5", "angular", "ngAnimate", "angular-l10n", "grunt", "canvas", "cordova", "sass"]
+		},
+		"start": "1 June 2013"
+	},
+	{
 		"id": "rr3",
 		"type": "fulltime",
-		"name": "Web app",
+		"name": "Dispatch",
+		"href": "http://dispatch.me/",
 		"description": "Working within a team to create web app at very tight deadlines. Ruby on rails backend.",
 		"skills": {
-			"technical": ["html5", "backbone.js"]
+			"technical": ["html5", "backbone.js", "REST", "grunt"]
 		},
 		"start": "1 Jan 2013",
 		"finish": "1 Feb 2013"
